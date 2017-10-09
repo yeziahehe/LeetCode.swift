@@ -1,0 +1,90 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXFileReference section */
+		2CE98BCE1F8B772800DA9746 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2CE98BD01F8B7BA400DA9746 /* MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubarray.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2CE98BC71F8B770F00DA9746 = {
+			isa = PBXGroup;
+			children = (
+				2CE98BCE1F8B772800DA9746 /* README.md */,
+				2CE98BCF1F8B7B4F00DA9746 /* Solution */,
+			);
+			sourceTree = "<group>";
+		};
+		2CE98BCF1F8B7B4F00DA9746 /* Solution */ = {
+			isa = PBXGroup;
+			children = (
+				2CE98BD11F8B7C3100DA9746 /* 053_MaximumSubarray */,
+			);
+			path = Solution;
+			sourceTree = "<group>";
+		};
+		2CE98BD11F8B7C3100DA9746 /* 053_MaximumSubarray */ = {
+			isa = PBXGroup;
+			children = (
+				2CE98BD01F8B7BA400DA9746 /* MaximumSubarray.swift */,
+			);
+			path = 053_MaximumSubarray;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		2CE98BC81F8B770F00DA9746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 2CE98BCB1F8B770F00DA9746 /* Build configuration list for PBXProject "LeetCode.swift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2CE98BC71F8B770F00DA9746;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		2CE98BCC1F8B770F00DA9746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		2CE98BCD1F8B770F00DA9746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CE98BCB1F8B770F00DA9746 /* Build configuration list for PBXProject "LeetCode.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE98BCC1F8B770F00DA9746 /* Debug */,
+				2CE98BCD1F8B770F00DA9746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CE98BC81F8B770F00DA9746 /* Project object */;
+}
