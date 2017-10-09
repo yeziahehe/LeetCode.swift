@@ -9,6 +9,7 @@
 /* Begin PBXFileReference section */
 		2CE98BCE1F8B772800DA9746 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2CE98BD01F8B7BA400DA9746 /* MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubarray.swift; sourceTree = "<group>"; };
+		2CE98BD41F8B7F5B00DA9746 /* MaximumGap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumGap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -24,6 +25,7 @@
 			isa = PBXGroup;
 			children = (
 				2CE98BD11F8B7C3100DA9746 /* 053_MaximumSubarray */,
+				2CE98BD31F8B7F3700DA9746 /* 164_MaximumGap */,
 			);
 			path = Solution;
 			sourceTree = "<group>";
@@ -34,6 +36,14 @@
 				2CE98BD01F8B7BA400DA9746 /* MaximumSubarray.swift */,
 			);
 			path = 053_MaximumSubarray;
+			sourceTree = "<group>";
+		};
+		2CE98BD31F8B7F3700DA9746 /* 164_MaximumGap */ = {
+			isa = PBXGroup;
+			children = (
+				2CE98BD41F8B7F5B00DA9746 /* MaximumGap.swift */,
+			);
+			path = 164_MaximumGap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
