@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CE98BF31F8BAA9100DA9746 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BEC1F8BAA1200DA9746 /* TwoSum.swift */; };
+		2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF91F8BDC0A00DA9746 /* main.swift */; };
+		2CE98BFB1F8BDF7500DA9746 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF61F8BD4A100DA9746 /* AddTwoNumbers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		2CE98BEE1F8BAA1200DA9746 /* MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubarray.swift; sourceTree = "<group>"; };
 		2CE98BF01F8BAA1200DA9746 /* MaximumGap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumGap.swift; sourceTree = "<group>"; };
 		2CE98BF41F8BB02F00DA9746 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2CE98BF61F8BD4A100DA9746 /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
+		2CE98BF91F8BDC0A00DA9746 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +47,7 @@
 		2CE98BD71F8BA9E500DA9746 = {
 			isa = PBXGroup;
 			children = (
+				2CE98BF91F8BDC0A00DA9746 /* main.swift */,
 				2CE98BF41F8BB02F00DA9746 /* README.md */,
 				2CE98BEA1F8BAA1200DA9746 /* Solution */,
 				2CE98BE11F8BA9E500DA9746 /* Products */,
@@ -62,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				2CE98BEB1F8BAA1200DA9746 /* 001_TwoSum */,
+				2CE98BF51F8BD46500DA9746 /* 002_AddTwoNumbers */,
 				2CE98BED1F8BAA1200DA9746 /* 053_MaximumSubarray */,
 				2CE98BEF1F8BAA1200DA9746 /* 164_MaximumGap */,
 			);
@@ -90,6 +95,14 @@
 				2CE98BF01F8BAA1200DA9746 /* MaximumGap.swift */,
 			);
 			path = 164_MaximumGap;
+			sourceTree = "<group>";
+		};
+		2CE98BF51F8BD46500DA9746 /* 002_AddTwoNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				2CE98BF61F8BD4A100DA9746 /* AddTwoNumbers.swift */,
+			);
+			path = 002_AddTwoNumbers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +137,7 @@
 				TargetAttributes = {
 					2CE98BDF1F8BA9E500DA9746 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -150,7 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CE98BF31F8BAA9100DA9746 /* TwoSum.swift in Sources */,
+				2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */,
+				2CE98BFB1F8BDF7500DA9746 /* AddTwoNumbers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +281,12 @@
 		2CE98BE81F8BA9E500DA9746 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3WTM5PLDUE;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -276,8 +294,10 @@
 		2CE98BE91F8BA9E500DA9746 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3WTM5PLDUE;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
