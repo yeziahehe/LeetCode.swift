@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF91F8BDC0A00DA9746 /* main.swift */; };
-		2CE98BFB1F8BDF7500DA9746 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF61F8BD4A100DA9746 /* AddTwoNumbers.swift */; };
+		2CE98BFE1F8CBB1A00DA9746 /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BFD1F8CBB1A00DA9746 /* LongestSubstringWithoutRepeatingCharacters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +31,7 @@
 		2CE98BF41F8BB02F00DA9746 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2CE98BF61F8BD4A100DA9746 /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
 		2CE98BF91F8BDC0A00DA9746 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2CE98BFD1F8CBB1A00DA9746 /* LongestSubstringWithoutRepeatingCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharacters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +68,7 @@
 			children = (
 				2CE98BEB1F8BAA1200DA9746 /* 001_TwoSum */,
 				2CE98BF51F8BD46500DA9746 /* 002_AddTwoNumbers */,
+				2CE98BFC1F8CBB0300DA9746 /* 003_LongestSubstringWithoutRepeatingCharacters */,
 				2CE98BED1F8BAA1200DA9746 /* 053_MaximumSubarray */,
 				2CE98BEF1F8BAA1200DA9746 /* 164_MaximumGap */,
 			);
@@ -103,6 +105,14 @@
 				2CE98BF61F8BD4A100DA9746 /* AddTwoNumbers.swift */,
 			);
 			path = 002_AddTwoNumbers;
+			sourceTree = "<group>";
+		};
+		2CE98BFC1F8CBB0300DA9746 /* 003_LongestSubstringWithoutRepeatingCharacters */ = {
+			isa = PBXGroup;
+			children = (
+				2CE98BFD1F8CBB1A00DA9746 /* LongestSubstringWithoutRepeatingCharacters.swift */,
+			);
+			path = 003_LongestSubstringWithoutRepeatingCharacters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,7 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */,
-				2CE98BFB1F8BDF7500DA9746 /* AddTwoNumbers.swift in Sources */,
+				2CE98BFE1F8CBB1A00DA9746 /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
