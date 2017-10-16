@@ -10,5 +10,5 @@ import Foundation
 
 print("Hello, LeetCode!")
 
-let solution = Solution().wordBreak("leetcode", ["leet", "code"])
+let solution = Solution().wordBreak("catsanddog", ["cat", "cats", "and", "sand", "dog"])
 print(solution)
