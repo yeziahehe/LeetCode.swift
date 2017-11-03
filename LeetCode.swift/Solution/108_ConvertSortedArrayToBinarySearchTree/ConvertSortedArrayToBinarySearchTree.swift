@@ -11,7 +11,7 @@
  */
 
 /**
- 平衡二叉搜索树(balanced BST)的时间复杂度为 O(logn)，很容易想到利用递归二分法的思想进行构造。
+ 平衡二叉搜索树(balanced BST)的时间复杂度为 O(lgn)，很容易想到利用递归二分法的思想进行构造。
  */
 
 import Foundation
