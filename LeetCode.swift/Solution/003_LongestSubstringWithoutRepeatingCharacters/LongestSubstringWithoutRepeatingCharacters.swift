@@ -25,19 +25,19 @@ class Solution {
     func lengthOfLongestSubstring(_ s: String) -> Int {
         let array = Array(s)
         var length = 0
-        var start = 0, end = 0
+        var left = 0, right = 0
         var i = 0
-        while end < array.count {
-            i = start
-            while i < end {
-                if array[i] == array[end] {
-                    start = i + 1
+        while right < array.count {
+            i = left
+            while i < right {
+                if array[i] == array[right] {
+                    left = i + 1
                     break
                 }
                 i += 1
             }
-            length = max(length, end - start + 1)
-            end += 1
+            length = max(length, right - left + 1)
+            right += 1
         }
         return length
     }
