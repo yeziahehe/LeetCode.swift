@@ -26,7 +26,7 @@ The `main.swift` is to initialized **Solution.func(val)**, then you can debug. *
 
 ## Solution Analysis
 
-You can find all solution analysis in [my blog LeetCode OJ](http://yeziahehe.com/categories/LeetCode-OJ/), and the analysis  to each problem is in the mext table `blog`.
+You can find all solution analysis in my blog [LeetCode OJ](http://yeziahehe.com/leetcode/), and the analysis  to each problem is in the mext table `blog`.
 
 ## Problems
 
@@ -40,6 +40,6 @@ You can find all solution analysis in [my blog LeetCode OJ](http://yeziahehe.com
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/108_ConvertSortedArrayToBinarySearchTree/ConvertSortedArrayToBinarySearchTree.swift) | ![](https://img.shields.io/badge/%20Difficulty-Easy-brightgreen.svg) | **`T`** **`DS`** | [blog](http://yeziahehe.com/2017/11/02/ConvertSortedArrayToBinarySearchTree/) |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/description/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/139_WordBreak/WordBreak.swift) | ![](https://img.shields.io/badge/%20Difficulty-Medium-orange.svg) | **`DP`** | [blog](http://yeziahehe.com/2017/10/14/WordBreak/) |
 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/description/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/140_WordBreakII/WordBreakII.swift) | ![](https://img.shields.io/badge/%20Difficulty-Hard-red.svg) | **`DP`** **`B`** | [blog](http://yeziahehe.com/2017/10/15/WordBreakII/) |
-| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/description/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/164_MaximumGap/MaximumGap.swift) | ![](https://img.shields.io/badge/%20Difficulty-Hard-red.svg) | **`S`** | - |
+| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/description/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/164_MaximumGap/MaximumGap.swift) | ![](https://img.shields.io/badge/%20Difficulty-Hard-red.svg) | **`S`** | [blog](http://yeziahehe.com/2017/10/16/MaximumGap/) |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/283_MoveZeroes/MoveZeroes.swift) | ![](https://img.shields.io/badge/%20Difficulty-Easy-brightgreen.svg) | **`A`** **`TP`** | [blog](http://yeziahehe.com/2017/10/13/MoveZeroes/) |
 | 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/628_MaximumProductOfThreeNumbers/MaximumProductOfThreeNumbers.swift) | ![](https://img.shields.io/badge/%20Difficulty-Easy-brightgreen.svg) | **`A`** **`M`** | [blog](http://yeziahehe.com/2017/11/03/MaximumProductOfThreeNumbers/) |
