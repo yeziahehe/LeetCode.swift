@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C636FF11FAF271A009B19F8 /* FindKPairsWithSmallestSums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C636FF01FAF271A009B19F8 /* FindKPairsWithSmallestSums.swift */; };
 		2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF91F8BDC0A00DA9746 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		2C636FEA1FAB19F1009B19F8 /* ConvertSortedArrayToBinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertSortedArrayToBinarySearchTree.swift; sourceTree = "<group>"; };
 		2C636FED1FAC5D07009B19F8 /* MaximumProductOfThreeNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumProductOfThreeNumbers.swift; sourceTree = "<group>"; };
+		2C636FF01FAF271A009B19F8 /* FindKPairsWithSmallestSums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindKPairsWithSmallestSums.swift; sourceTree = "<group>"; };
 		2CE98BE01F8BA9E500DA9746 /* LeetCode.swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode.swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE98BEC1F8BAA1200DA9746 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		2CE98BEE1F8BAA1200DA9746 /* MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubarray.swift; sourceTree = "<group>"; };
@@ -66,6 +68,14 @@
 			path = 628_MaximumProductOfThreeNumbers;
 			sourceTree = "<group>";
 		};
+		2C636FEF1FAF2706009B19F8 /* 373_FindKPairsWithSmallestSums */ = {
+			isa = PBXGroup;
+			children = (
+				2C636FF01FAF271A009B19F8 /* FindKPairsWithSmallestSums.swift */,
+			);
+			path = 373_FindKPairsWithSmallestSums;
+			sourceTree = "<group>";
+		};
 		2CE98BD71F8BA9E500DA9746 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 				2CE98C191F93AAF100DA9746 /* 140_WordBreakII */,
 				2CE98BEF1F8BAA1200DA9746 /* 164_MaximumGap */,
 				2CE98C131F9104A700DA9746 /* 283_MoveZeroes */,
+				2C636FEF1FAF2706009B19F8 /* 373_FindKPairsWithSmallestSums */,
 				2C636FEC1FAC5CF5009B19F8 /* 628_MaximumProductOfThreeNumbers */,
 			);
 			path = Solution;
@@ -233,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C636FF11FAF271A009B19F8 /* FindKPairsWithSmallestSums.swift in Sources */,
 				2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

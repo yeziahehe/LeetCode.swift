@@ -10,5 +10,5 @@ import Foundation
 
 print("Hello, LeetCode!")
 
-let solution = Solution().sortedArrayToBST([0, 3])
-print(solution!.val)
+let solution = Solution().kSmallestPairs([1,1,2], [1,2,3], 10)
+print(solution)
