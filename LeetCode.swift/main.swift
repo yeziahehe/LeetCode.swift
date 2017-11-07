@@ -10,5 +10,5 @@ import Foundation
 
 print("Hello, LeetCode!")
 
-let solution = Solution().kSmallestPairs([1,1,2], [1,2,3], 10)
+let solution = Solution().plusOne([1, 0])
 print(solution)
