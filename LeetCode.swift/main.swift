@@ -10,5 +10,5 @@ import Foundation
 
 print("Hello, LeetCode!")
 
-let solution = Solution().plusOne([1, 0])
+let solution = Solution().mergeTwoLists(ListNode(2), ListNode(1))
 print(solution)
