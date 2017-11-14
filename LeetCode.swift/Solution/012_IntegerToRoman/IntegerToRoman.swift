@@ -1,5 +1,5 @@
 //
-//  IntergerToRoman.swift
+//  IntegerToRoman.swift
 //  LeetCode.swift
 //
 //  Created by 叶帆 on 2017/11/12.
