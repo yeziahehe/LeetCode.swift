@@ -6,8 +6,13 @@
 //  Copyright © 2017年 Suzhou Coryphaei Information&Technology Co., Ltd. All rights reserved.
 //
 
-import Foundation
+/**
+ Given an integer, convert it to a roman numeral.
+ 
+ Input is guaranteed to be within the range from 1 to 3999.
+ */
 
+import Foundation
 
 // 枚举法
 class Solution1 {
@@ -22,7 +27,6 @@ class Solution1 {
 }
 
 // 贪心算法
-
 class Solution2 {
     func intToRoman(_ num: Int) -> String {
         var val = num
