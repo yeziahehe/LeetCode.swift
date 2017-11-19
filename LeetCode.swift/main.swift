@@ -10,5 +10,5 @@ import Foundation
 
 print("Hello, LeetCode!")
 
-let solution = Solution().mergeTwoLists(ListNode(2), ListNode(1))
+let solution = Solution().strStr("mississippi", "issip")
 print(solution)
