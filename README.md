@@ -23,7 +23,7 @@ Solutions to LeetCode by Swift.
 
 The `main.swift` is to initialized **Solution.func(val)**, then you can debug. **Be sure when you initialize the Solution's swift file has chosen Target Membership, like the following image. And once time you just choose one Solution's swift file!**
 
-![](http://7xkvt5.com1.z0.glb.clouddn.com/github/LeetCode.png)
+![](LeetCode.png)
 
 ## Solution Analysis
 
