@@ -18,6 +18,8 @@ Solutions to LeetCode by Swift.
 - **D&C** : `Divide and Conquer`
 - **H** : `Heap`
 - **S** : `Sort`
+- **G** : `Greedy`
+- **BM** : `Bit Manipulation`
 
 ## How to debug
 
@@ -50,4 +52,8 @@ You can find all solution analysis in my blog [LeetCode OJ](http://yeziahehe.com
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/206_ReverseLinkedList/ReverseLinkedList.swift) | ![](https://img.shields.io/badge/%20Difficulty-Easy-brightgreen.svg) | **`LL`** | [blog](http://yeziahehe.com/2017/11/06/ReverseLinkedList/) |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/283_MoveZeroes/MoveZeroes.swift) | ![](https://img.shields.io/badge/%20Difficulty-Easy-brightgreen.svg) | **`A`** **`TP`** | [blog](http://yeziahehe.com/2017/10/13/MoveZeroes/) |
 | 373 | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/373_FindKPairsWithSmallestSums/FindKPairsWithSmallestSums.swift) | ![](https://img.shields.io/badge/%20Difficulty-Medium-orange.svg) | **`H`** | [blog](http://yeziahehe.com/2017/11/05/FindKPairsWithSmallestSums/) |
+| 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/404_SumOfLeftLeaves/SumOfLeftLeaves.swift) | ![](https://img.shields.io/badge/%20Difficulty-Easy-brightgreen.svg) | **`T`** | [blog](http://yeziahehe.com/2020/02/28/SumOfLeftLeaves/) |
+| 455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/455_AssignCookiese/AssignCookies.swift) | ![](https://img.shields.io/badge/%20Difficulty-Easy-brightgreen.svg) | **`G`** | [blog](http://yeziahehe.com/2020/02/28/AssignCookies/) |
+| 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/461_HammingDistance/HammingDistance.swift) | ![](https://img.shields.io/badge/%20Difficulty-Easy-brightgreen.svg) | **`BM`** | [blog](http://yeziahehe.com/2020/02/27/HammingDistance/) |
 | 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/628_MaximumProductOfThreeNumbers/MaximumProductOfThreeNumbers.swift) | ![](https://img.shields.io/badge/%20Difficulty-Easy-brightgreen.svg) | **`A`** **`M`** | [blog](http://yeziahehe.com/2017/11/03/MaximumProductOfThreeNumbers/) |
+| 657 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/657_RobotReturnToOrigin/RobotReturnToOrigin.swift) | ![](https://img.shields.io/badge/%20Difficulty-Easy-brightgreen.svg) | **`Str`** | [blog](http://yeziahehe.com/2020/02/27/RobotReturntoOrigin/) |

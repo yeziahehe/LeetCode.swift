@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C6846D91FBF44A700501ED7 /* ImplementstrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6846D81FBF44A700501ED7 /* ImplementstrStr.swift */; };
 		2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF91F8BDC0A00DA9746 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2C29670522DF0ACF00EAC1DF /* CousinsInBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CousinsInBinaryTree.swift; sourceTree = "<group>"; };
 		2C636FEA1FAB19F1009B19F8 /* ConvertSortedArrayToBinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertSortedArrayToBinarySearchTree.swift; sourceTree = "<group>"; };
 		2C636FED1FAC5D07009B19F8 /* MaximumProductOfThreeNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumProductOfThreeNumbers.swift; sourceTree = "<group>"; };
 		2C636FF01FAF271A009B19F8 /* FindKPairsWithSmallestSums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindKPairsWithSmallestSums.swift; sourceTree = "<group>"; };
@@ -33,6 +33,13 @@
 		2C80CA041FB60DA800474DC9 /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
 		2C80CA071FB8A27B00474DC9 /* IntegerToRoman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerToRoman.swift; sourceTree = "<group>"; };
 		2C8481381FBB3C6800B3655B /* RomanToInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToInteger.swift; sourceTree = "<group>"; };
+		2C85A8A222BA2B8C0053181E /* ZigZagConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagConversion.swift; sourceTree = "<group>"; };
+		2C85A8B822C35DDB0053181E /* AssignCookies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignCookies.swift; sourceTree = "<group>"; };
+		2C85A8BB22C368630053181E /* Candy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
+		2CD477B71FC6D47B00484D5E /* StringToInteger(atoi).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringToInteger(atoi).swift"; sourceTree = "<group>"; };
+		2CD87583240B94A30001DA84 /* SumOfLeftLeaves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfLeftLeaves.swift; sourceTree = "<group>"; };
+		2CD87585240B95910001DA84 /* HammingDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HammingDistance.swift; sourceTree = "<group>"; };
+		2CD87588240B96DC0001DA84 /* RobotReturnToOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotReturnToOrigin.swift; sourceTree = "<group>"; };
 		2CE98BE01F8BA9E500DA9746 /* LeetCode.swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode.swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE98BEC1F8BAA1200DA9746 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		2CE98BEE1F8BAA1200DA9746 /* MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubarray.swift; sourceTree = "<group>"; };
@@ -58,6 +65,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C29670422DF0A7C00EAC1DF /* 993_CousinsInBinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				2C29670522DF0ACF00EAC1DF /* CousinsInBinaryTree.swift */,
+			);
+			path = 993_CousinsInBinaryTree;
+			sourceTree = "<group>";
+		};
 		2C636FE91FAB19E7009B19F8 /* 108_ConvertSortedArrayToBinarySearchTree */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +145,62 @@
 			path = 013_RomanToInteger;
 			sourceTree = "<group>";
 		};
+		2C85A8A122BA2B7C0053181E /* 006_ZigZagConversion */ = {
+			isa = PBXGroup;
+			children = (
+				2C85A8A222BA2B8C0053181E /* ZigZagConversion.swift */,
+			);
+			path = 006_ZigZagConversion;
+			sourceTree = "<group>";
+		};
+		2C85A8B722C35DAD0053181E /* 455_AssignCookies */ = {
+			isa = PBXGroup;
+			children = (
+				2C85A8B822C35DDB0053181E /* AssignCookies.swift */,
+			);
+			path = 455_AssignCookies;
+			sourceTree = "<group>";
+		};
+		2C85A8BA22C368500053181E /* 135_Candy */ = {
+			isa = PBXGroup;
+			children = (
+				2C85A8BB22C368630053181E /* Candy.swift */,
+			);
+			path = 135_Candy;
+			sourceTree = "<group>";
+		};
+		2CD477B61FC6D46A00484D5E /* 008_StringToInteger(atoi) */ = {
+			isa = PBXGroup;
+			children = (
+				2CD477B71FC6D47B00484D5E /* StringToInteger(atoi).swift */,
+			);
+			path = "008_StringToInteger(atoi)";
+			sourceTree = "<group>";
+		};
+		2CD87582240B94790001DA84 /* 404_SumOfLeftLeaves */ = {
+			isa = PBXGroup;
+			children = (
+				2CD87583240B94A30001DA84 /* SumOfLeftLeaves.swift */,
+			);
+			path = 404_SumOfLeftLeaves;
+			sourceTree = "<group>";
+		};
+		2CD87584240B95710001DA84 /* 461_HammingDistance */ = {
+			isa = PBXGroup;
+			children = (
+				2CD87585240B95910001DA84 /* HammingDistance.swift */,
+			);
+			path = 461_HammingDistance;
+			sourceTree = "<group>";
+		};
+		2CD87587240B96990001DA84 /* 657_RobotReturnToOrigin */ = {
+			isa = PBXGroup;
+			children = (
+				2CD87588240B96DC0001DA84 /* RobotReturnToOrigin.swift */,
+			);
+			path = 657_RobotReturnToOrigin;
+			sourceTree = "<group>";
+		};
 		2CE98BD71F8BA9E500DA9746 = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +226,8 @@
 				2CE98BF51F8BD46500DA9746 /* 002_AddTwoNumbers */,
 				2CE98BFC1F8CBB0300DA9746 /* 003_LongestSubstringWithoutRepeatingCharacters */,
 				2CE98BFF1F8D17E200DA9746 /* 004_MedianOfTwoSortedArrays */,
+				2C85A8A122BA2B7C0053181E /* 006_ZigZagConversion */,
+				2CD477B61FC6D46A00484D5E /* 008_StringToInteger(atoi) */,
 				2C80CA061FB8A26600474DC9 /* 012_IntegerToRoman */,
 				2C8481371FBB3C4B00B3655B /* 013_RomanToInteger */,
 				2C80CA031FB60D7100474DC9 /* 021_MergeTwoSortedLists */,
@@ -162,13 +235,19 @@
 				2CE98BED1F8BAA1200DA9746 /* 053_MaximumSubarray */,
 				2C6370061FB1675F009B19F8 /* 066_PlusOne */,
 				2C636FE91FAB19E7009B19F8 /* 108_ConvertSortedArrayToBinarySearchTree */,
+				2C85A8BA22C368500053181E /* 135_Candy */,
 				2CE98C161F939B5000DA9746 /* 139_WordBreak */,
 				2CE98C191F93AAF100DA9746 /* 140_WordBreakII */,
 				2CE98BEF1F8BAA1200DA9746 /* 164_MaximumGap */,
 				2C6370031FB0852A009B19F8 /* 206_ReverseLinkedList */,
 				2CE98C131F9104A700DA9746 /* 283_MoveZeroes */,
 				2C636FEF1FAF2706009B19F8 /* 373_FindKPairsWithSmallestSums */,
+				2CD87582240B94790001DA84 /* 404_SumOfLeftLeaves */,
+				2C85A8B722C35DAD0053181E /* 455_AssignCookies */,
+				2CD87584240B95710001DA84 /* 461_HammingDistance */,
 				2C636FEC1FAC5CF5009B19F8 /* 628_MaximumProductOfThreeNumbers */,
+				2CD87587240B96990001DA84 /* 657_RobotReturnToOrigin */,
+				2C29670422DF0A7C00EAC1DF /* 993_CousinsInBinaryTree */,
 			);
 			path = Solution;
 			sourceTree = "<group>";
@@ -305,7 +384,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */,
-				2C6846D91FBF44A700501ED7 /* ImplementstrStr.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
