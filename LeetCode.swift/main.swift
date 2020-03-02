@@ -10,5 +10,5 @@ import Foundation
 
 print("Hello, LeetCode!")
 
-//let solution = Solution().findContentChildren([1,2,3], [1,1])
-//print(solution)
+let solution = Solution().matrixReshape([[1,2],[3,4]], 1, 4)
+print(solution)
