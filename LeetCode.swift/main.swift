@@ -10,5 +10,12 @@ import Foundation
 
 print("Hello, LeetCode!")
 
-let solution = Solution().matrixReshape([[1,2],[3,4]], 1, 4)
-print(solution)
+//let solution = Solution()
+//print(solution)
+let obj = MovingAverage(5)
+let ret_1: Double = obj.next(3)
+let ret_2: Double = obj.next(1)
+let ret_3: Double = obj.next(10)
+let ret_4: Double = obj.next(3)
+let ret_5: Double = obj.next(5)
+

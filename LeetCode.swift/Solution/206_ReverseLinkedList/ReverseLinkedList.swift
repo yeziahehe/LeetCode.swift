@@ -49,10 +49,9 @@ class Solution2 {
         if head == nil || head?.next == nil {
             return head
         }
-        let next = head?.next
+        let newHead = reverseList(head?.next)
+        head?.next?.next = head
         head?.next = nil
-        let newHead = reverseList(next)
-        next?.next = head
         return newHead
     }
 }
