@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C99DEED2410A69000354578 /* FindPivotIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C99DEEC2410A69000354578 /* FindPivotIndex.swift */; };
 		2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF91F8BDC0A00DA9746 /* main.swift */; };
+		2CFA25EE2410C4270090E6C3 /* LargestNumberAtLeastTwiceOfOthers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA25ED2410C4270090E6C3 /* LargestNumberAtLeastTwiceOfOthers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +57,7 @@
 		2CE98C141F9104CC00DA9746 /* MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZeroes.swift; sourceTree = "<group>"; };
 		2CE98C171F939B6A00DA9746 /* WordBreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordBreak.swift; sourceTree = "<group>"; };
 		2CE98C1A1F93AB0D00DA9746 /* WordBreakII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordBreakII.swift; sourceTree = "<group>"; };
+		2CFA25ED2410C4270090E6C3 /* LargestNumberAtLeastTwiceOfOthers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestNumberAtLeastTwiceOfOthers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,6 +289,7 @@
 				2C636FEC1FAC5CF5009B19F8 /* 628_MaximumProductOfThreeNumbers */,
 				2CD87587240B96990001DA84 /* 657_RobotReturnToOrigin */,
 				2C99DEEB2410A66100354578 /* 724_FindPivotIndex */,
+				2CFA25EC2410C4010090E6C3 /* 747_LargestNumberAtLeastTwiceOfOthers */,
 				2C29670422DF0A7C00EAC1DF /* 993_CousinsInBinaryTree */,
 			);
 			path = Solution;
@@ -365,6 +367,14 @@
 			path = 140_WordBreakII;
 			sourceTree = "<group>";
 		};
+		2CFA25EC2410C4010090E6C3 /* 747_LargestNumberAtLeastTwiceOfOthers */ = {
+			isa = PBXGroup;
+			children = (
+				2CFA25ED2410C4270090E6C3 /* LargestNumberAtLeastTwiceOfOthers.swift */,
+			);
+			path = 747_LargestNumberAtLeastTwiceOfOthers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -425,7 +435,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C99DEED2410A69000354578 /* FindPivotIndex.swift in Sources */,
+				2CFA25EE2410C4270090E6C3 /* LargestNumberAtLeastTwiceOfOthers.swift in Sources */,
 				2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
