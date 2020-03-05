@@ -10,6 +10,6 @@ import Foundation
 
 print("Hello, LeetCode!")
 
-let solution = Solution().pivotIndex([1,7,3,6,5,6])
+let solution = Solution().plusOne([9])
 print(solution)
 

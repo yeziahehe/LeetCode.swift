@@ -19,19 +19,16 @@ import Foundation
 
 class Solution {
     func plusOne(_ digits: [Int]) -> [Int] {
-        var reDigits: [Int] = digits.reversed()
-        var carry = 0
-        
-        for (index, digit) in reDigits.enumerated() {
-            let sum = index == 0 ? digit + 1 + carry : digit + carry
-            carry = sum / 10
-            reDigits[index] = sum % 10
+        var s: [Int] = digits
+        for i in s.enumerated().reversed() {
+            s[i.offset] += 1
+            s[i.offset] %= 10
+            if s[i.offset] != 0 {
+                return s
+            }
         }
-        
-        if carry > 0 {
-            reDigits.append(carry)
-        }
-        
-        return reDigits.reversed()
+        // 还没 return 说明要加 1
+        s.insert(1, at: 0)
+        return s
     }
 }
