@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF91F8BDC0A00DA9746 /* main.swift */; };
-		2CFA25F02410DF000090E6C3 /* PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6370071FB16781009B19F8 /* PlusOne.swift */; };
+		2CFA25F32410ED950090E6C3 /* DiagonalTraverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA25F22410ED950090E6C3 /* DiagonalTraverse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,6 +58,7 @@
 		2CE98C171F939B6A00DA9746 /* WordBreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordBreak.swift; sourceTree = "<group>"; };
 		2CE98C1A1F93AB0D00DA9746 /* WordBreakII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordBreakII.swift; sourceTree = "<group>"; };
 		2CFA25ED2410C4270090E6C3 /* LargestNumberAtLeastTwiceOfOthers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestNumberAtLeastTwiceOfOthers.swift; sourceTree = "<group>"; };
+		2CFA25F22410ED950090E6C3 /* DiagonalTraverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalTraverse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -285,6 +286,7 @@
 				2CD87582240B94790001DA84 /* 404_SumOfLeftLeaves */,
 				2C85A8B722C35DAD0053181E /* 455_AssignCookies */,
 				2CD87584240B95710001DA84 /* 461_HammingDistance */,
+				2CFA25F12410ED7C0090E6C3 /* 498_DiagonalTraverse */,
 				2C6ECF35240D4304003782E1 /* 566_ReshapeTheMatrix */,
 				2C636FEC1FAC5CF5009B19F8 /* 628_MaximumProductOfThreeNumbers */,
 				2CD87587240B96990001DA84 /* 657_RobotReturnToOrigin */,
@@ -375,6 +377,14 @@
 			path = 747_LargestNumberAtLeastTwiceOfOthers;
 			sourceTree = "<group>";
 		};
+		2CFA25F12410ED7C0090E6C3 /* 498_DiagonalTraverse */ = {
+			isa = PBXGroup;
+			children = (
+				2CFA25F22410ED950090E6C3 /* DiagonalTraverse.swift */,
+			);
+			path = 498_DiagonalTraverse;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -435,7 +445,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CFA25F02410DF000090E6C3 /* PlusOne.swift in Sources */,
+				2CFA25F32410ED950090E6C3 /* DiagonalTraverse.swift in Sources */,
 				2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
