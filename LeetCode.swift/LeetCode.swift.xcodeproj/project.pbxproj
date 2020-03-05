@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C56D755240E1F8400940922 /* MovingAverageFromDataStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C56D754240E1EA700940922 /* MovingAverageFromDataStream.swift */; };
+		2C99DEED2410A69000354578 /* FindPivotIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C99DEEC2410A69000354578 /* FindPivotIndex.swift */; };
 		2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF91F8BDC0A00DA9746 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +40,7 @@
 		2C85A8A222BA2B8C0053181E /* ZigZagConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagConversion.swift; sourceTree = "<group>"; };
 		2C85A8B822C35DDB0053181E /* AssignCookies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignCookies.swift; sourceTree = "<group>"; };
 		2C85A8BB22C368630053181E /* Candy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
+		2C99DEEC2410A69000354578 /* FindPivotIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPivotIndex.swift; sourceTree = "<group>"; };
 		2CD477B71FC6D47B00484D5E /* StringToInteger(atoi).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringToInteger(atoi).swift"; sourceTree = "<group>"; };
 		2CD87583240B94A30001DA84 /* SumOfLeftLeaves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfLeftLeaves.swift; sourceTree = "<group>"; };
 		2CD87585240B95910001DA84 /* HammingDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HammingDistance.swift; sourceTree = "<group>"; };
@@ -197,6 +198,14 @@
 			path = 135_Candy;
 			sourceTree = "<group>";
 		};
+		2C99DEEB2410A66100354578 /* 724_FindPivotIndex */ = {
+			isa = PBXGroup;
+			children = (
+				2C99DEEC2410A69000354578 /* FindPivotIndex.swift */,
+			);
+			path = 724_FindPivotIndex;
+			sourceTree = "<group>";
+		};
 		2CD477B61FC6D46A00484D5E /* 008_StringToInteger(atoi) */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,6 +287,7 @@
 				2C6ECF35240D4304003782E1 /* 566_ReshapeTheMatrix */,
 				2C636FEC1FAC5CF5009B19F8 /* 628_MaximumProductOfThreeNumbers */,
 				2CD87587240B96990001DA84 /* 657_RobotReturnToOrigin */,
+				2C99DEEB2410A66100354578 /* 724_FindPivotIndex */,
 				2C29670422DF0A7C00EAC1DF /* 993_CousinsInBinaryTree */,
 			);
 			path = Solution;
@@ -415,8 +425,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C99DEED2410A69000354578 /* FindPivotIndex.swift in Sources */,
 				2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */,
-				2C56D755240E1F8400940922 /* MovingAverageFromDataStream.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
