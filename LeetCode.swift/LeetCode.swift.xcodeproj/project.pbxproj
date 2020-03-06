@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C585805241245930008B0A3 /* SpiralMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C585804241245930008B0A3 /* SpiralMatrix.swift */; };
 		2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF91F8BDC0A00DA9746 /* main.swift */; };
-		2CFA25F32410ED950090E6C3 /* DiagonalTraverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA25F22410ED950090E6C3 /* DiagonalTraverse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +26,7 @@
 /* Begin PBXFileReference section */
 		2C29670522DF0ACF00EAC1DF /* CousinsInBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CousinsInBinaryTree.swift; sourceTree = "<group>"; };
 		2C56D754240E1EA700940922 /* MovingAverageFromDataStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingAverageFromDataStream.swift; sourceTree = "<group>"; };
+		2C585804241245930008B0A3 /* SpiralMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralMatrix.swift; sourceTree = "<group>"; };
 		2C636FEA1FAB19F1009B19F8 /* ConvertSortedArrayToBinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertSortedArrayToBinarySearchTree.swift; sourceTree = "<group>"; };
 		2C636FED1FAC5D07009B19F8 /* MaximumProductOfThreeNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumProductOfThreeNumbers.swift; sourceTree = "<group>"; };
 		2C636FF01FAF271A009B19F8 /* FindKPairsWithSmallestSums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindKPairsWithSmallestSums.swift; sourceTree = "<group>"; };
@@ -86,6 +87,14 @@
 				2C56D754240E1EA700940922 /* MovingAverageFromDataStream.swift */,
 			);
 			path = 346_MovingAverageFromDataStream;
+			sourceTree = "<group>";
+		};
+		2C5858032412456D0008B0A3 /* 054_SpiralMatrix */ = {
+			isa = PBXGroup;
+			children = (
+				2C585804241245930008B0A3 /* SpiralMatrix.swift */,
+			);
+			path = 054_SpiralMatrix;
 			sourceTree = "<group>";
 		};
 		2C636FE91FAB19E7009B19F8 /* 108_ConvertSortedArrayToBinarySearchTree */ = {
@@ -272,6 +281,7 @@
 				2C80CA031FB60D7100474DC9 /* 021_MergeTwoSortedLists */,
 				2C6846D71FBF449600501ED7 /* 028_ImplementstrStr */,
 				2CE98BED1F8BAA1200DA9746 /* 053_MaximumSubarray */,
+				2C5858032412456D0008B0A3 /* 054_SpiralMatrix */,
 				2C6370061FB1675F009B19F8 /* 066_PlusOne */,
 				2C636FE91FAB19E7009B19F8 /* 108_ConvertSortedArrayToBinarySearchTree */,
 				2C85A8BA22C368500053181E /* 135_Candy */,
@@ -445,7 +455,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CFA25F32410ED950090E6C3 /* DiagonalTraverse.swift in Sources */,
+				2C585805241245930008B0A3 /* SpiralMatrix.swift in Sources */,
 				2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

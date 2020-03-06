@@ -10,6 +10,6 @@ import Foundation
 
 print("Hello, LeetCode!")
 
-let solution = Solution().findDiagonalOrder([[1,2,3],[4,5,6],[7,8,9]])
+let solution = Solution().spiralOrder([[1,2,3],[4,5,6],[7,8,9]])
 print(solution)
 
