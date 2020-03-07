@@ -32,7 +32,7 @@ class Solution1 {
         guard let range = haystack.range(of: needle) else {
             return -1
         }
-        return range.lowerBound.encodedOffset
+        return range.lowerBound.utf16Offset(in: haystack)
     }
 }
 
@@ -42,35 +42,23 @@ class Solution {
             return 0
         }
         
-        if needle.count > haystack.count {
-            return -1
-        }
-        
         let haystackChar = Array(haystack)
         let needleChar = Array(needle)
         var i = 0
-        var j = 0
         
-        while i < haystackChar.count {
-            j = 0
-            
-            if haystackChar.count - i < needleChar.count {
-                return -1
-            }
-            
-            for index in 0..<needleChar.count {
-                if haystackChar[i + index] == needleChar[index] {
-                    j += 1
-                    continue
-                } else {
-                    break
+        while i < haystackChar.count - needleChar.count + 1 {
+            if haystackChar[i] == needleChar[0] {
+                for index in 0..<needleChar.count {
+                    if haystackChar[i + index] == needleChar[index] {
+                        if index == needleChar.count - 1 {
+                            return i
+                        }
+                    } else {
+                        break
+                    }
                 }
             }
-            if j == needleChar.count {
-                return i
-            } else {
-                i += 1
-            }
+            i += 1
         }
         return -1
     }
