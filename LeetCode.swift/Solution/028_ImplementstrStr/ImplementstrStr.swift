@@ -47,15 +47,13 @@ class Solution {
         var i = 0
         
         while i < haystackChar.count - needleChar.count + 1 {
-            if haystackChar[i] == needleChar[0] {
-                for index in 0..<needleChar.count {
-                    if haystackChar[i + index] == needleChar[index] {
-                        if index == needleChar.count - 1 {
-                            return i
-                        }
-                    } else {
-                        break
+            for index in 0..<needleChar.count {
+                if haystackChar[i + index] == needleChar[index] {
+                    if index == needleChar.count - 1 {
+                        return i
                     }
+                } else {
+                    break
                 }
             }
             i += 1
