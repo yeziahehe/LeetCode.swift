@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C58580824137C590008B0A3 /* Pascal'sTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C58580724137C590008B0A3 /* Pascal'sTriangle.swift */; };
+		2C58580B2413943D0008B0A3 /* AddBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C58580A2413943D0008B0A3 /* AddBinary.swift */; };
 		2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF91F8BDC0A00DA9746 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +28,7 @@
 		2C56D754240E1EA700940922 /* MovingAverageFromDataStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingAverageFromDataStream.swift; sourceTree = "<group>"; };
 		2C585804241245930008B0A3 /* SpiralMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralMatrix.swift; sourceTree = "<group>"; };
 		2C58580724137C590008B0A3 /* Pascal'sTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pascal'sTriangle.swift"; sourceTree = "<group>"; };
+		2C58580A2413943D0008B0A3 /* AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBinary.swift; sourceTree = "<group>"; };
 		2C636FEA1FAB19F1009B19F8 /* ConvertSortedArrayToBinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertSortedArrayToBinarySearchTree.swift; sourceTree = "<group>"; };
 		2C636FED1FAC5D07009B19F8 /* MaximumProductOfThreeNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumProductOfThreeNumbers.swift; sourceTree = "<group>"; };
 		2C636FF01FAF271A009B19F8 /* FindKPairsWithSmallestSums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindKPairsWithSmallestSums.swift; sourceTree = "<group>"; };
@@ -104,6 +105,14 @@
 				2C58580724137C590008B0A3 /* Pascal'sTriangle.swift */,
 			);
 			path = "118_ Pascal'sTriangle ";
+			sourceTree = "<group>";
+		};
+		2C585809241394090008B0A3 /* 067_AddBinary */ = {
+			isa = PBXGroup;
+			children = (
+				2C58580A2413943D0008B0A3 /* AddBinary.swift */,
+			);
+			path = 067_AddBinary;
 			sourceTree = "<group>";
 		};
 		2C636FE91FAB19E7009B19F8 /* 108_ConvertSortedArrayToBinarySearchTree */ = {
@@ -292,6 +301,7 @@
 				2CE98BED1F8BAA1200DA9746 /* 053_MaximumSubarray */,
 				2C5858032412456D0008B0A3 /* 054_SpiralMatrix */,
 				2C6370061FB1675F009B19F8 /* 066_PlusOne */,
+				2C585809241394090008B0A3 /* 067_AddBinary */,
 				2C636FE91FAB19E7009B19F8 /* 108_ConvertSortedArrayToBinarySearchTree */,
 				2C58580624137C400008B0A3 /* 118_ Pascal'sTriangle  */,
 				2C85A8BA22C368500053181E /* 135_Candy */,
@@ -466,7 +476,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */,
-				2C58580824137C590008B0A3 /* Pascal'sTriangle.swift in Sources */,
+				2C58580B2413943D0008B0A3 /* AddBinary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
