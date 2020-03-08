@@ -37,6 +37,7 @@
 		2C58581D2414BBA10008B0A3 /* MaxConsecutiveOnes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxConsecutiveOnes.swift; sourceTree = "<group>"; };
 		2C5858202414C4480008B0A3 /* MinimumSizeSubarraySum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumSizeSubarraySum.swift; sourceTree = "<group>"; };
 		2C585823241521880008B0A3 /* RotateArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateArray.swift; sourceTree = "<group>"; };
+		2C585826241536790008B0A3 /* Pascal'sTriangleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pascal'sTriangleII.swift"; sourceTree = "<group>"; };
 		2C636FEA1FAB19F1009B19F8 /* ConvertSortedArrayToBinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertSortedArrayToBinarySearchTree.swift; sourceTree = "<group>"; };
 		2C636FED1FAC5D07009B19F8 /* MaximumProductOfThreeNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumProductOfThreeNumbers.swift; sourceTree = "<group>"; };
 		2C636FF01FAF271A009B19F8 /* FindKPairsWithSmallestSums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindKPairsWithSmallestSums.swift; sourceTree = "<group>"; };
@@ -107,12 +108,12 @@
 			path = 054_SpiralMatrix;
 			sourceTree = "<group>";
 		};
-		2C58580624137C400008B0A3 /* 118_ Pascal'sTriangle  */ = {
+		2C58580624137C400008B0A3 /* 118_ Pascal'sTriangle */ = {
 			isa = PBXGroup;
 			children = (
 				2C58580724137C590008B0A3 /* Pascal'sTriangle.swift */,
 			);
-			path = "118_ Pascal'sTriangle ";
+			path = "118_ Pascal'sTriangle";
 			sourceTree = "<group>";
 		};
 		2C585809241394090008B0A3 /* 067_AddBinary */ = {
@@ -185,6 +186,14 @@
 				2C585823241521880008B0A3 /* RotateArray.swift */,
 			);
 			path = 189_RotateArray;
+			sourceTree = "<group>";
+		};
+		2C585825241536390008B0A3 /* 119_Pascal'sTriangleII */ = {
+			isa = PBXGroup;
+			children = (
+				2C585826241536790008B0A3 /* Pascal'sTriangleII.swift */,
+			);
+			path = "119_Pascal'sTriangleII";
 			sourceTree = "<group>";
 		};
 		2C636FE91FAB19E7009B19F8 /* 108_ConvertSortedArrayToBinarySearchTree */ = {
@@ -377,7 +386,8 @@
 				2C6370061FB1675F009B19F8 /* 066_PlusOne */,
 				2C585809241394090008B0A3 /* 067_AddBinary */,
 				2C636FE91FAB19E7009B19F8 /* 108_ConvertSortedArrayToBinarySearchTree */,
-				2C58580624137C400008B0A3 /* 118_ Pascal'sTriangle  */,
+				2C58580624137C400008B0A3 /* 118_ Pascal'sTriangle */,
+				2C585825241536390008B0A3 /* 119_Pascal'sTriangleII */,
 				2C85A8BA22C368500053181E /* 135_Candy */,
 				2CE98C161F939B5000DA9746 /* 139_WordBreak */,
 				2CE98C191F93AAF100DA9746 /* 140_WordBreakII */,
