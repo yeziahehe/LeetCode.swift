@@ -10,6 +10,6 @@ import Foundation
 
 print("Hello, LeetCode!")
 
-let solution = Solution().strStr("hello", "ll")
+let solution = Solution().minSubArrayLen(3, [1,1])
 print(solution)
 
