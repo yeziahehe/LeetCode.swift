@@ -10,7 +10,6 @@ import Foundation
 
 print("Hello, LeetCode!")
 
-var a = [1,2,3,4,5,6]
-Solution().rotate(&a, 2)
-//print(solution)
+let solution = Solution().reverseWords("the sky is blue")
+print(solution)
 
