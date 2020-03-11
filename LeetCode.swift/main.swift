@@ -10,14 +10,6 @@ import Foundation
 
 print("Hello, LeetCode!")
 
-// let solution = Solution().reverseWords("the sky is blue")
-// print(solution)
-
-let obj = MyLinkedList()
-obj.addAtHead(1)
-obj.addAtTail(3)
-obj.addAtIndex(1, 2)
-let ret_1: Int = obj.get(1)
-obj.deleteAtIndex(0)
-let ret_2: Int = obj.get(0)
+let solution = Solution().detectCycle(head: <#T##ListNode?#>)
+ print(solution)
 
