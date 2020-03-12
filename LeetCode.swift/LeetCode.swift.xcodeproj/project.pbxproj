@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CCE95022419C7F900F6AD1A /* IntersectionOfTwoLinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCE95012419C7F900F6AD1A /* IntersectionOfTwoLinkedLists.swift */; };
+		2CCE95052419D82100F6AD1A /* RemoveNthNodeFromEndOfList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCE95042419D82100F6AD1A /* RemoveNthNodeFromEndOfList.swift */; };
 		2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF91F8BDC0A00DA9746 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +60,7 @@
 		2CCE94FB24188E8B00F6AD1A /* LinkedListCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycle.swift; sourceTree = "<group>"; };
 		2CCE94FE24188EC400F6AD1A /* LinkedListCycleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycleII.swift; sourceTree = "<group>"; };
 		2CCE95012419C7F900F6AD1A /* IntersectionOfTwoLinkedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectionOfTwoLinkedLists.swift; sourceTree = "<group>"; };
+		2CCE95042419D82100F6AD1A /* RemoveNthNodeFromEndOfList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNthNodeFromEndOfList.swift; sourceTree = "<group>"; };
 		2CD477B71FC6D47B00484D5E /* StringToInteger(atoi).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringToInteger(atoi).swift"; sourceTree = "<group>"; };
 		2CD87583240B94A30001DA84 /* SumOfLeftLeaves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfLeftLeaves.swift; sourceTree = "<group>"; };
 		2CD87585240B95910001DA84 /* HammingDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HammingDistance.swift; sourceTree = "<group>"; };
@@ -379,6 +380,14 @@
 			path = 160_IntersectionOfTwoLinkedLists;
 			sourceTree = "<group>";
 		};
+		2CCE95032419D7FC00F6AD1A /* 019_RemoveNthNodeFromEndOfList */ = {
+			isa = PBXGroup;
+			children = (
+				2CCE95042419D82100F6AD1A /* RemoveNthNodeFromEndOfList.swift */,
+			);
+			path = 019_RemoveNthNodeFromEndOfList;
+			sourceTree = "<group>";
+		};
 		2CD477B61FC6D46A00484D5E /* 008_StringToInteger(atoi) */ = {
 			isa = PBXGroup;
 			children = (
@@ -441,6 +450,7 @@
 				2C80CA061FB8A26600474DC9 /* 012_IntegerToRoman */,
 				2C8481371FBB3C4B00B3655B /* 013_RomanToInteger */,
 				2C58580D2413F20C0008B0A3 /* 014_LongestCommonPrefix */,
+				2CCE95032419D7FC00F6AD1A /* 019_RemoveNthNodeFromEndOfList */,
 				2C80CA031FB60D7100474DC9 /* 021_MergeTwoSortedLists */,
 				2C58582E2415445E0008B0A3 /* 026_RemoveDuplicatesFromSortedArray */,
 				2C5858192414B8E20008B0A3 /* 027_RemoveElement */,
@@ -635,7 +645,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CCE95022419C7F900F6AD1A /* IntersectionOfTwoLinkedLists.swift in Sources */,
+				2CCE95052419D82100F6AD1A /* RemoveNthNodeFromEndOfList.swift in Sources */,
 				2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
