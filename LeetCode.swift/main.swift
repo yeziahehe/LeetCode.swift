@@ -10,6 +10,15 @@ import Foundation
 
 print("Hello, LeetCode!")
 
-let solution = Solution().detectCycle(head: <#T##ListNode?#>)
- print(solution)
+let obj = MyLinkedList()
+obj.addAtHead(1)
+obj.addAtIndex(1, 2)
+obj.addAtIndex(2, 3)
+obj.addAtIndex(3, 4)
+obj.addAtIndex(4, 5)
+
+
+let solution = Solution().oddEvenList(obj.head)
+print(solution)
+
 

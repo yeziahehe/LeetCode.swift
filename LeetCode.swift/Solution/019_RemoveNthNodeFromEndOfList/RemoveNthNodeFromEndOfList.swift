@@ -41,15 +41,6 @@
 
 import Foundation
 
-public class ListNode {
-    public var val: Int
-    public var next: ListNode?
-    public init(_ val: Int) {
-        self.val = val
-        self.next = nil
-    }
-}
-
 class Solution {
     func removeNthFromEnd(_ head: ListNode?, _ n: Int) -> ListNode? {
         let dummy = ListNode(-1)

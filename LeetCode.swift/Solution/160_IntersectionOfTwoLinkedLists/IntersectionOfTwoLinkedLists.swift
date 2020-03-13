@@ -97,15 +97,6 @@
 
 import Foundation
 
-public class ListNode {
-    public var val: Int
-    public var next: ListNode?
-    public init(_ val: Int) {
-        self.val = val
-        self.next = nil
-    }
-}
-
 class Solution {
     public func getIntersectionNode(headA: ListNode?, headB: ListNode?) -> ListNode? {
         guard headA != nil && headB != nil else {
