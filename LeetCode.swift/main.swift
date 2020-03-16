@@ -11,14 +11,11 @@ import Foundation
 print("Hello, LeetCode!")
 
 let obj = MyLinkedList()
-obj.addAtHead(1)
-obj.addAtIndex(1, 2)
-obj.addAtIndex(2, 3)
-obj.addAtIndex(3, 4)
-obj.addAtIndex(4, 5)
+obj.addAtHead(0)
+obj.addAtIndex(1, 0)
 
 
-let solution = Solution().oddEvenList(obj.head)
+let solution = Solution().isPalindrome(obj.head)
 print(solution)
 
 
