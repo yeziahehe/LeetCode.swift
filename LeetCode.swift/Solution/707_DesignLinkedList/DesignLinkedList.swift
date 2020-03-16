@@ -117,11 +117,12 @@ class MyLinkedList {
     func addAtTail(_ val: Int) {
         guard head != nil else {
             head = ListNode(val)
+            size += 1
             return
         }
         let node = ListNode(val)
         var tailNode = head
-        for _ in 0..<size-1 {
+            for _ in 0..<size-1 {
             tailNode = tailNode!.next
         }
         tailNode?.next = node
@@ -175,3 +176,123 @@ class MyLinkedList {
  * obj.addAtIndex(index, val)
  * obj.deleteAtIndex(index)
  */
+
+// 双向链表
+class MyLinkedList1 {
+    
+    class ListNode {
+        public var val: Int
+        public var prev: ListNode?
+        public var next: ListNode?
+        public init(_ val: Int) {
+            self.val = val
+            self.prev = nil
+            self.next = nil
+        }
+    }
+    
+    var size: Int = 0
+    var head: ListNode?
+    var tail: ListNode? {
+        guard var node = head else {
+            return nil
+        }
+        
+        while let next = node.next {
+            node = next
+        }
+        return node
+    }
+
+    /** Initialize your data structure here. */
+    init() {
+        head = nil
+        size = 0
+    }
+    
+    /** Get the value of the index-th node in the linked list. If the index is invalid, return -1. */
+    func get(_ index: Int) -> Int {
+        if index < 0 || index >= size {
+            return -1
+        }
+        if index < (size >> 1) {
+            var indexNode = head
+            for _ in 0..<index {
+                indexNode = indexNode!.next
+            }
+            return indexNode!.val
+        } else {
+            var indexNode = tail
+            for _ in index..<size-1 {
+                indexNode = indexNode!.prev
+            }
+            return indexNode!.val
+        }
+        
+    }
+    
+    /** Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list. */
+    func addAtHead(_ val: Int) {
+        let newHead = ListNode(val)
+        if head == nil {
+            head = newHead
+        } else {
+            newHead.next = head
+            head?.prev = newHead
+            head = newHead
+        }
+        size += 1
+    }
+    
+    /** Append a node of value val to the last element of the linked list. */
+    func addAtTail(_ val: Int) {
+        let newTail = ListNode(val)
+        if head == nil {
+            head = newTail
+        } else {
+            newTail.prev = tail
+            tail?.next = newTail
+        }
+        size += 1
+    }
+    
+    /** Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted. */
+    func addAtIndex(_ index: Int, _ val: Int) {
+        if index > size {
+            return
+        }
+        if index <= 0 {
+            addAtHead(val)
+            return
+        }
+        let node = ListNode(val)
+        var indexNode = head
+        for _ in 0..<index-1 {
+            indexNode = indexNode?.next
+        }
+        node.prev = indexNode
+        node.next = indexNode?.next
+        indexNode?.next?.prev = node
+        indexNode?.next = node
+        size += 1
+    }
+    
+    /** Delete the index-th node in the linked list, if the index is valid. */
+    func deleteAtIndex(_ index: Int) {
+        if index >= size || index < 0 || size <= 0 {
+            return
+        }
+        if index == 0 {
+            head = head!.next
+            size -= 1
+            return
+        }
+        var indexNode = head
+        for _ in 0..<index-1 {
+            indexNode = indexNode!.next
+        }
+        indexNode?.next = indexNode?.next?.next
+        indexNode?.next?.prev = indexNode
+        size -= 1
+    }
+}

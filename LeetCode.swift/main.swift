@@ -10,12 +10,22 @@ import Foundation
 
 print("Hello, LeetCode!")
 
-let obj = MyLinkedList()
+let obj = MyLinkedList1()
+obj.addAtHead(7)
+obj.addAtTail(7)
+obj.addAtHead(9)
+obj.addAtTail(8)
+obj.addAtHead(6)
 obj.addAtHead(0)
-obj.addAtIndex(1, 0)
+obj.addAtHead(0)
+//obj.addAtIndex(0, 0)
+//obj.addAtIndex(1, 1)
+//obj.addAtIndex(2, 2)
+//obj.addAtIndex(3, 3)
+//obj.addAtIndex(4, 4)
+//obj.addAtIndex(5, 5)
+obj.get(5)
 
-
-let solution = Solution().isPalindrome(obj.head)
-print(solution)
+//print(solution)
 
 

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2CA6E4A9241B16A4009D9757 /* DesignLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCE94F82418729E00F6AD1A /* DesignLinkedList.swift */; };
-		2CA6E4AC241B2A8E009D9757 /* PalindromeLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA6E4AB241B2A8E009D9757 /* PalindromeLinkedList.swift */; };
 		2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF91F8BDC0A00DA9746 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -678,7 +677,6 @@
 			files = (
 				2CA6E4A9241B16A4009D9757 /* DesignLinkedList.swift in Sources */,
 				2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */,
-				2CA6E4AC241B2A8E009D9757 /* PalindromeLinkedList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
