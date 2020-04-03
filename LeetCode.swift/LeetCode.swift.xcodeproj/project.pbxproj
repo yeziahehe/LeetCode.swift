@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C6CACAF243737250022BB66 /* CopyListWithRandomPointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6CACAE243737250022BB66 /* CopyListWithRandomPointer.swift */; };
+		2C6CACB2243745890022BB66 /* RotateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6CACB1243745890022BB66 /* RotateList.swift */; };
 		2CA6E4A9241B16A4009D9757 /* DesignLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCE94F82418729E00F6AD1A /* DesignLinkedList.swift */; };
 		2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF91F8BDC0A00DA9746 /* main.swift */; };
 /* End PBXBuildFile section */
@@ -50,6 +50,7 @@
 		2C6370071FB16781009B19F8 /* PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOne.swift; sourceTree = "<group>"; };
 		2C6846D81FBF44A700501ED7 /* ImplementstrStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementstrStr.swift; sourceTree = "<group>"; };
 		2C6CACAE243737250022BB66 /* CopyListWithRandomPointer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyListWithRandomPointer.swift; sourceTree = "<group>"; };
+		2C6CACB1243745890022BB66 /* RotateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateList.swift; sourceTree = "<group>"; };
 		2C6ECF34240D3E6F003782E1 /* DungeontheGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeontheGame.swift; sourceTree = "<group>"; };
 		2C6ECF36240D4399003782E1 /* ReshapeTheMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReshapeTheMatrix.swift; sourceTree = "<group>"; };
 		2C80CA041FB60DA800474DC9 /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
@@ -298,6 +299,14 @@
 			path = 138_CopyListWithRandomPointer;
 			sourceTree = "<group>";
 		};
+		2C6CACB0243745720022BB66 /* 061_RotateList */ = {
+			isa = PBXGroup;
+			children = (
+				2C6CACB1243745890022BB66 /* RotateList.swift */,
+			);
+			path = 061_RotateList;
+			sourceTree = "<group>";
+		};
 		2C6ECF33240D3E13003782E1 /* 174_DungeontheGame */ = {
 			isa = PBXGroup;
 			children = (
@@ -503,6 +512,7 @@
 				2C6846D71FBF449600501ED7 /* 028_ImplementstrStr */,
 				2CE98BED1F8BAA1200DA9746 /* 053_MaximumSubarray */,
 				2C5858032412456D0008B0A3 /* 054_SpiralMatrix */,
+				2C6CACB0243745720022BB66 /* 061_RotateList */,
 				2C6370061FB1675F009B19F8 /* 066_PlusOne */,
 				2C585809241394090008B0A3 /* 067_AddBinary */,
 				2C636FE91FAB19E7009B19F8 /* 108_ConvertSortedArrayToBinarySearchTree */,
@@ -698,7 +708,7 @@
 			files = (
 				2CA6E4A9241B16A4009D9757 /* DesignLinkedList.swift in Sources */,
 				2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */,
-				2C6CACAF243737250022BB66 /* CopyListWithRandomPointer.swift in Sources */,
+				2C6CACB2243745890022BB66 /* RotateList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
