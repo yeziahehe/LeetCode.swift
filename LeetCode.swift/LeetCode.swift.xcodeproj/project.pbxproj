@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C9DD53F2438E05500E5DB62 /* DailyTemperatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9DD53E2438E05500E5DB62 /* DailyTemperatures.swift */; };
+		2C9DD542243A077A00E5DB62 /* EvaluateReversePolishNotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9DD541243A077A00E5DB62 /* EvaluateReversePolishNotation.swift */; };
 		2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF91F8BDC0A00DA9746 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +62,7 @@
 		2C9DD5382438CAF900E5DB62 /* MinStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinStack.swift; sourceTree = "<group>"; };
 		2C9DD53B2438D2A100E5DB62 /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
 		2C9DD53E2438E05500E5DB62 /* DailyTemperatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTemperatures.swift; sourceTree = "<group>"; };
+		2C9DD541243A077A00E5DB62 /* EvaluateReversePolishNotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluateReversePolishNotation.swift; sourceTree = "<group>"; };
 		2CA6E4AB241B2A8E009D9757 /* PalindromeLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeLinkedList.swift; sourceTree = "<group>"; };
 		2CA6E4AE241F8418009D9757 /* FlattenAMultilevelDoublyLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlattenAMultilevelDoublyLinkedList.swift; sourceTree = "<group>"; };
 		2CCE94F82418729E00F6AD1A /* DesignLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignLinkedList.swift; sourceTree = "<group>"; };
@@ -405,6 +406,14 @@
 			path = 739_DailyTemperatures;
 			sourceTree = "<group>";
 		};
+		2C9DD540243A076400E5DB62 /* 150_EvaluateReversePolishNotation */ = {
+			isa = PBXGroup;
+			children = (
+				2C9DD541243A077A00E5DB62 /* EvaluateReversePolishNotation.swift */,
+			);
+			path = 150_EvaluateReversePolishNotation;
+			sourceTree = "<group>";
+		};
 		2CA6E4AA241B2A74009D9757 /* 234_PalindromeLinkedList */ = {
 			isa = PBXGroup;
 			children = (
@@ -551,6 +560,7 @@
 				2CE98C191F93AAF100DA9746 /* 140_WordBreakII */,
 				2CCE94FA24188E7400F6AD1A /* 141_LinkedListCycle */,
 				2CCE94FD24188EA300F6AD1A /* 142_LinkedListCycleII */,
+				2C9DD540243A076400E5DB62 /* 150_EvaluateReversePolishNotation */,
 				2C585828241539660008B0A3 /* 151_ReverseWordsInAString */,
 				2C9DD5372438CAD300E5DB62 /* 155_MinStack */,
 				2CCE95002419C7E000F6AD1A /* 160_IntersectionOfTwoLinkedLists */,
@@ -735,7 +745,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C9DD53F2438E05500E5DB62 /* DailyTemperatures.swift in Sources */,
+				2C9DD542243A077A00E5DB62 /* EvaluateReversePolishNotation.swift in Sources */,
 				2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
