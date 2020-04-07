@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C9DD542243A077A00E5DB62 /* EvaluateReversePolishNotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9DD541243A077A00E5DB62 /* EvaluateReversePolishNotation.swift */; };
+		2C9DD548243B2DF400E5DB62 /* ImplementStackUsingQueues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9DD547243B2DF400E5DB62 /* ImplementStackUsingQueues.swift */; };
 		2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF91F8BDC0A00DA9746 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +63,8 @@
 		2C9DD53B2438D2A100E5DB62 /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
 		2C9DD53E2438E05500E5DB62 /* DailyTemperatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTemperatures.swift; sourceTree = "<group>"; };
 		2C9DD541243A077A00E5DB62 /* EvaluateReversePolishNotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluateReversePolishNotation.swift; sourceTree = "<group>"; };
+		2C9DD544243A261700E5DB62 /* NumberOfIslands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfIslands.swift; sourceTree = "<group>"; };
+		2C9DD547243B2DF400E5DB62 /* ImplementStackUsingQueues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementStackUsingQueues.swift; sourceTree = "<group>"; };
 		2CA6E4AB241B2A8E009D9757 /* PalindromeLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeLinkedList.swift; sourceTree = "<group>"; };
 		2CA6E4AE241F8418009D9757 /* FlattenAMultilevelDoublyLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlattenAMultilevelDoublyLinkedList.swift; sourceTree = "<group>"; };
 		2CCE94F82418729E00F6AD1A /* DesignLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignLinkedList.swift; sourceTree = "<group>"; };
@@ -414,6 +416,22 @@
 			path = 150_EvaluateReversePolishNotation;
 			sourceTree = "<group>";
 		};
+		2C9DD543243A25FF00E5DB62 /* 200_NumberOfIslands */ = {
+			isa = PBXGroup;
+			children = (
+				2C9DD544243A261700E5DB62 /* NumberOfIslands.swift */,
+			);
+			path = 200_NumberOfIslands;
+			sourceTree = "<group>";
+		};
+		2C9DD546243B2DE100E5DB62 /* 225_ImplementStackUsingQueues */ = {
+			isa = PBXGroup;
+			children = (
+				2C9DD547243B2DF400E5DB62 /* ImplementStackUsingQueues.swift */,
+			);
+			path = 225_ImplementStackUsingQueues;
+			sourceTree = "<group>";
+		};
 		2CA6E4AA241B2A74009D9757 /* 234_PalindromeLinkedList */ = {
 			isa = PBXGroup;
 			children = (
@@ -568,9 +586,11 @@
 				2C5858162414A9590008B0A3 /* 167_TwoSumII */,
 				2C6ECF33240D3E13003782E1 /* 174_DungeontheGame */,
 				2C5858222415211F0008B0A3 /* 189_RotateArray */,
+				2C9DD543243A25FF00E5DB62 /* 200_NumberOfIslands */,
 				2CCE9506241A0ABC00F6AD1A /* 203_RemoveLinkedListElements */,
 				2C6370031FB0852A009B19F8 /* 206_ReverseLinkedList */,
 				2C58581F2414C4240008B0A3 /* 209_MinimumSizeSubarraySum */,
+				2C9DD546243B2DE100E5DB62 /* 225_ImplementStackUsingQueues */,
 				2CA6E4AA241B2A74009D9757 /* 234_PalindromeLinkedList */,
 				2CE98C131F9104A700DA9746 /* 283_MoveZeroes */,
 				2C0B5EFC241A3BA8003BA64B /* 328_OddEvenLinkedList */,
@@ -745,7 +765,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C9DD542243A077A00E5DB62 /* EvaluateReversePolishNotation.swift in Sources */,
+				2C9DD548243B2DF400E5DB62 /* ImplementStackUsingQueues.swift in Sources */,
 				2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
