@@ -10,7 +10,8 @@ Solutions to LeetCode by Swift.
 - **M** : `Math`
 - **T** : `Tree`
 - **HT** : `Hash Table`
-- **DS** : `Depth-first Search`
+- **DFS** : `Depth-first Search`
+- **BFS** : `Breadth-first Search`
 - **BS** : `Binary Search`
 - **TP** : `Two Pointers`
 - **B** : `Backtracking`
@@ -82,6 +83,7 @@ You can find all solution analysis in my blog [LeetCode OJ](http://yeziahehe.com
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/344_ReverseString/ReverseString.swift) | ![](https://img.shields.io/badge/%20Difficulty-Easy-brightgreen.svg) | **`Str`** **`TP`** | [blog](http://yeziahehe.com/2020/03/07/ReverseString/) |
 | 346 | [Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/346_MovingAverageFromDataStream/MovingAverageFromDataStream.swift) | ![](https://img.shields.io/badge/%20Difficulty-Easy-brightgreen.svg) | **`Q`** | [blog](http://yeziahehe.com/2020/03/03/MovingAverageFromDataStream/) |
 | 373 | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/373_FindKPairsWithSmallestSums/FindKPairsWithSmallestSums.swift) | ![](https://img.shields.io/badge/%20Difficulty-Medium-orange.svg) | **`H`** | [blog](http://yeziahehe.com/2017/11/05/FindKPairsWithSmallestSums/) |
+| 394 | [Decode String](https://leetcode.com/problems/decode-string/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/394_DecodeString/DecodeString.swift) | ![](https://img.shields.io/badge/%20Difficulty-Medium-orange.svg) | **`St`** **`DFS`** | [blog](http://yeziahehe.com/2020/04/08/DecodeString/) |
 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/404_SumOfLeftLeaves/SumOfLeftLeaves.swift) | ![](https://img.shields.io/badge/%20Difficulty-Easy-brightgreen.svg) | **`T`** | [blog](http://yeziahehe.com/2020/02/28/SumOfLeftLeaves/) |
 | 455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/455_AssignCookiese/AssignCookies.swift) | ![](https://img.shields.io/badge/%20Difficulty-Easy-brightgreen.svg) | **`G`** | [blog](http://yeziahehe.com/2020/02/28/AssignCookies/) |
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/461_HammingDistance/HammingDistance.swift) | ![](https://img.shields.io/badge/%20Difficulty-Easy-brightgreen.svg) | **`BM`** | [blog](http://yeziahehe.com/2020/02/27/HammingDistance/) |
