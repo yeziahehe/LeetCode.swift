@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C04500124434EE6007EBB9D /* SymmetricTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C04500024434EE6007EBB9D /* SymmetricTree.swift */; };
+		2C04500424436043007EBB9D /* PathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C04500324436043007EBB9D /* PathSum.swift */; };
 		2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF91F8BDC0A00DA9746 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +26,7 @@
 /* Begin PBXFileReference section */
 		2C044FFD24434A22007EBB9D /* MaximumDepthOfBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumDepthOfBinaryTree.swift; sourceTree = "<group>"; };
 		2C04500024434EE6007EBB9D /* SymmetricTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymmetricTree.swift; sourceTree = "<group>"; };
+		2C04500324436043007EBB9D /* PathSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathSum.swift; sourceTree = "<group>"; };
 		2C0B5EFD241A3BC1003BA64B /* OddEvenLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddEvenLinkedList.swift; sourceTree = "<group>"; };
 		2C29670522DF0ACF00EAC1DF /* CousinsInBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CousinsInBinaryTree.swift; sourceTree = "<group>"; };
 		2C56D754240E1EA700940922 /* MovingAverageFromDataStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingAverageFromDataStream.swift; sourceTree = "<group>"; };
@@ -126,6 +127,14 @@
 				2C04500024434EE6007EBB9D /* SymmetricTree.swift */,
 			);
 			path = 101_SymmetricTree;
+			sourceTree = "<group>";
+		};
+		2C04500224436031007EBB9D /* 112_PathSum */ = {
+			isa = PBXGroup;
+			children = (
+				2C04500324436043007EBB9D /* PathSum.swift */,
+			);
+			path = 112_PathSum;
 			sourceTree = "<group>";
 		};
 		2C0B5EFC241A3BA8003BA64B /* 328_OddEvenLinkedList */ = {
@@ -646,6 +655,7 @@
 				2C9C593424407A22001E4819 /* 102_BinaryTreeLevelOrderTraversal */,
 				2C044FFC24434A04007EBB9D /* 104_MaximumDepthOfBinaryTree */,
 				2C636FE91FAB19E7009B19F8 /* 108_ConvertSortedArrayToBinarySearchTree */,
+				2C04500224436031007EBB9D /* 112_PathSum */,
 				2C58580624137C400008B0A3 /* 118_Pascal'sTriangle */,
 				2C585825241536390008B0A3 /* 119_Pascal'sTriangleII */,
 				2C85A8BA22C368500053181E /* 135_Candy */,
@@ -845,8 +855,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C04500124434EE6007EBB9D /* SymmetricTree.swift in Sources */,
 				2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */,
+				2C04500424436043007EBB9D /* PathSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
