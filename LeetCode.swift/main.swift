@@ -10,7 +10,7 @@ import Foundation
 
 print("Hello, LeetCode!")
 
-let solution = Solution().buildTree([1,2], [2,1])
+let solution = Solution().buildTree([3,9,20,15,7], [9,3,15,20,7])
 print(solution)
 
 
