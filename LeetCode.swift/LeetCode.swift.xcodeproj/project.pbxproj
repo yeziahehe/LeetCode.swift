@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C4BCA7324627FEC00A7FEB1 /* PopulatingNextRightPointersInEachNodeII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BCA7224627FEC00A7FEB1 /* PopulatingNextRightPointersInEachNodeII.swift */; };
+		2C4BCA7624628DEC00A7FEB1 /* LowestCommonAncestorOfABinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BCA7524628DEC00A7FEB1 /* LowestCommonAncestorOfABinaryTree.swift */; };
 		2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF91F8BDC0A00DA9746 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +31,7 @@
 		2C29670522DF0ACF00EAC1DF /* CousinsInBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CousinsInBinaryTree.swift; sourceTree = "<group>"; };
 		2C4BCA6F24627AE000A7FEB1 /* PopulatingNextRightPointersInEachNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulatingNextRightPointersInEachNode.swift; sourceTree = "<group>"; };
 		2C4BCA7224627FEC00A7FEB1 /* PopulatingNextRightPointersInEachNodeII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulatingNextRightPointersInEachNodeII.swift; sourceTree = "<group>"; };
+		2C4BCA7524628DEC00A7FEB1 /* LowestCommonAncestorOfABinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonAncestorOfABinaryTree.swift; sourceTree = "<group>"; };
 		2C56D754240E1EA700940922 /* MovingAverageFromDataStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingAverageFromDataStream.swift; sourceTree = "<group>"; };
 		2C585804241245930008B0A3 /* SpiralMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralMatrix.swift; sourceTree = "<group>"; };
 		2C58580724137C590008B0A3 /* Pascal'sTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pascal'sTriangle.swift"; sourceTree = "<group>"; };
@@ -171,6 +172,14 @@
 				2C4BCA7224627FEC00A7FEB1 /* PopulatingNextRightPointersInEachNodeII.swift */,
 			);
 			path = 117_PopulatingNextRightPointersInEachNodeII;
+			sourceTree = "<group>";
+		};
+		2C4BCA7424628DC800A7FEB1 /* 236_LowestCommonAncestorOfABinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				2C4BCA7524628DEC00A7FEB1 /* LowestCommonAncestorOfABinaryTree.swift */,
+			);
+			path = 236_LowestCommonAncestorOfABinaryTree;
 			sourceTree = "<group>";
 		};
 		2C56D753240E1E6300940922 /* 346_MovingAverageFromDataStream */ = {
@@ -721,6 +730,7 @@
 				2C9DD546243B2DE100E5DB62 /* 225_ImplementStackUsingQueues */,
 				2C9DD54C243CB8D800E5DB62 /* 232_ImplementQueueUsingStacks */,
 				2CA6E4AA241B2A74009D9757 /* 234_PalindromeLinkedList */,
+				2C4BCA7424628DC800A7FEB1 /* 236_LowestCommonAncestorOfABinaryTree */,
 				2CE98C131F9104A700DA9746 /* 283_MoveZeroes */,
 				2C0B5EFC241A3BA8003BA64B /* 328_OddEvenLinkedList */,
 				2C5858102413F72D0008B0A3 /* 344_ReverseString */,
@@ -896,7 +906,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */,
-				2C4BCA7324627FEC00A7FEB1 /* PopulatingNextRightPointersInEachNodeII.swift in Sources */,
+				2C4BCA7624628DEC00A7FEB1 /* LowestCommonAncestorOfABinaryTree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
