@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2CD6172D24A09308000F6B25 /* ClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD6172C24A09308000F6B25 /* ClimbingStairs.swift */; };
-		2CD6173024A0A6BC000F6B25 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD6172F24A0A6BC000F6B25 /* File.swift */; };
+		2CD6173024A0A6BC000F6B25 /* FindMinimumInRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD6172F24A0A6BC000F6B25 /* FindMinimumInRotatedSortedArray.swift */; };
+		2CD6173324A0B0D5000F6B25 /* FindMinimumInRotatedSortedArrayII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD6173224A0B0D5000F6B25 /* FindMinimumInRotatedSortedArrayII.swift */; };
 		2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF91F8BDC0A00DA9746 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -94,7 +95,8 @@
 		2CD6172624A04EC0000F6B25 /* SearchA2DMatrixII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchA2DMatrixII.swift; sourceTree = "<group>"; };
 		2CD6172924A08C50000F6B25 /* FibonacciNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciNumber.swift; sourceTree = "<group>"; };
 		2CD6172C24A09308000F6B25 /* ClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingStairs.swift; sourceTree = "<group>"; };
-		2CD6172F24A0A6BC000F6B25 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		2CD6172F24A0A6BC000F6B25 /* FindMinimumInRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMinimumInRotatedSortedArray.swift; sourceTree = "<group>"; };
+		2CD6173224A0B0D5000F6B25 /* FindMinimumInRotatedSortedArrayII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMinimumInRotatedSortedArrayII.swift; sourceTree = "<group>"; };
 		2CD87583240B94A30001DA84 /* SumOfLeftLeaves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfLeftLeaves.swift; sourceTree = "<group>"; };
 		2CD87585240B95910001DA84 /* HammingDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HammingDistance.swift; sourceTree = "<group>"; };
 		2CD87588240B96DC0001DA84 /* RobotReturnToOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotReturnToOrigin.swift; sourceTree = "<group>"; };
@@ -680,9 +682,17 @@
 		2CD6172E24A0A6A9000F6B25 /* 153_FindMinimumInRotatedSortedArray */ = {
 			isa = PBXGroup;
 			children = (
-				2CD6172F24A0A6BC000F6B25 /* File.swift */,
+				2CD6172F24A0A6BC000F6B25 /* FindMinimumInRotatedSortedArray.swift */,
 			);
 			path = 153_FindMinimumInRotatedSortedArray;
+			sourceTree = "<group>";
+		};
+		2CD6173124A0B08D000F6B25 /* 154_FindMinimumInRotatedSortedArrayII */ = {
+			isa = PBXGroup;
+			children = (
+				2CD6173224A0B0D5000F6B25 /* FindMinimumInRotatedSortedArrayII.swift */,
+			);
+			path = 154_FindMinimumInRotatedSortedArrayII;
 			sourceTree = "<group>";
 		};
 		2CD87582240B94790001DA84 /* 404_SumOfLeftLeaves */ = {
@@ -774,6 +784,7 @@
 				2C9DD540243A076400E5DB62 /* 150_EvaluateReversePolishNotation */,
 				2C585828241539660008B0A3 /* 151_ReverseWordsInAString */,
 				2CD6172E24A0A6A9000F6B25 /* 153_FindMinimumInRotatedSortedArray */,
+				2CD6173124A0B08D000F6B25 /* 154_FindMinimumInRotatedSortedArrayII */,
 				2C9DD5372438CAD300E5DB62 /* 155_MinStack */,
 				2CCE95002419C7E000F6AD1A /* 160_IntersectionOfTwoLinkedLists */,
 				2CE98BEF1F8BAA1200DA9746 /* 164_MaximumGap */,
@@ -967,8 +978,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */,
-				2CD6173024A0A6BC000F6B25 /* File.swift in Sources */,
+				2CD6173024A0A6BC000F6B25 /* FindMinimumInRotatedSortedArray.swift in Sources */,
 				2CD6172D24A09308000F6B25 /* ClimbingStairs.swift in Sources */,
+				2CD6173324A0B0D5000F6B25 /* FindMinimumInRotatedSortedArrayII.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

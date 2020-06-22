@@ -47,19 +47,19 @@ import Foundation
 
 class Solution {
     func findMin(_ nums: [Int]) -> Int {
-        var i = 0
-        var j = nums.count - 1
-        if nums[i] < nums[j] {
-            return nums[i]
-        }
-        while i < j {
-            let mid = (i + j) / 2
-            if nums[mid] > nums[j] {
-                i = mid + 1
+        var low = 0
+        var high = nums.count - 1
+        while low < high {
+            if nums[low] < nums[high] {
+                return nums[low]
+            }
+            let mid = (low + high) / 2
+            if nums[mid] > nums[high]  {
+                low = mid + 1
             } else {
-                j = mid
+                high = mid
             }
         }
-        return nums[i]
+        return nums[low]
     }
 }
