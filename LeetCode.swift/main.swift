@@ -10,7 +10,7 @@ import Foundation
 
 print("Hello, LeetCode!")
 
-let solution = Solution().buildTree([3,9,20,15,7], [9,3,15,20,7])
+let solution = Solution().myPow(2.0, 10)
 print(solution)
 
 

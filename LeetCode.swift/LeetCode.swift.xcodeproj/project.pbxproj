@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C31C0B524A879AF00868283 /* NumberOf1Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C31C0B424A879AF00868283 /* NumberOf1Bits.swift */; };
+		2C31C0B824A8834E00868283 /* Pow(x, n).swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C31C0B724A8834E00868283 /* Pow(x, n).swift */; };
 		2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF91F8BDC0A00DA9746 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +30,7 @@
 		2C0B5EFD241A3BC1003BA64B /* OddEvenLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddEvenLinkedList.swift; sourceTree = "<group>"; };
 		2C29670522DF0ACF00EAC1DF /* CousinsInBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CousinsInBinaryTree.swift; sourceTree = "<group>"; };
 		2C31C0B424A879AF00868283 /* NumberOf1Bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOf1Bits.swift; sourceTree = "<group>"; };
+		2C31C0B724A8834E00868283 /* Pow(x, n).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pow(x, n).swift"; sourceTree = "<group>"; };
 		2C4BCA6F24627AE000A7FEB1 /* PopulatingNextRightPointersInEachNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulatingNextRightPointersInEachNode.swift; sourceTree = "<group>"; };
 		2C4BCA7224627FEC00A7FEB1 /* PopulatingNextRightPointersInEachNodeII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulatingNextRightPointersInEachNodeII.swift; sourceTree = "<group>"; };
 		2C4BCA7524628DEC00A7FEB1 /* LowestCommonAncestorOfABinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonAncestorOfABinaryTree.swift; sourceTree = "<group>"; };
@@ -174,6 +175,14 @@
 				2C31C0B424A879AF00868283 /* NumberOf1Bits.swift */,
 			);
 			path = 191_NumberOf1Bits;
+			sourceTree = "<group>";
+		};
+		2C31C0B624A8833B00868283 /* 50_Pow(x, n) */ = {
+			isa = PBXGroup;
+			children = (
+				2C31C0B724A8834E00868283 /* Pow(x, n).swift */,
+			);
+			path = "50_Pow(x, n)";
 			sourceTree = "<group>";
 		};
 		2C4BCA6E24627AB400A7FEB1 /* 116_PopulatingNextRightPointersInEachNode */ = {
@@ -780,6 +789,7 @@
 				2C58582E2415445E0008B0A3 /* 026_RemoveDuplicatesFromSortedArray */,
 				2C5858192414B8E20008B0A3 /* 027_RemoveElement */,
 				2C6846D71FBF449600501ED7 /* 028_ImplementstrStr */,
+				2C31C0B624A8833B00868283 /* 50_Pow(x, n) */,
 				2CE98BED1F8BAA1200DA9746 /* 053_MaximumSubarray */,
 				2C5858032412456D0008B0A3 /* 054_SpiralMatrix */,
 				2C6CACB0243745720022BB66 /* 061_RotateList */,
@@ -1006,7 +1016,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */,
-				2C31C0B524A879AF00868283 /* NumberOf1Bits.swift in Sources */,
+				2C31C0B824A8834E00868283 /* Pow(x, n).swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
