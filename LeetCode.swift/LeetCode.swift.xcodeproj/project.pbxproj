@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CE2E5E324A9BD9300BBF332 /* InvertBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2E5E224A9BD9300BBF332 /* InvertBinaryTree.swift */; };
 		2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF91F8BDC0A00DA9746 /* main.swift */; };
+		2CF3147024AC2D8C00170372 /* ValidateStackSequences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF3146F24AC2D8C00170372 /* ValidateStackSequences.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -115,6 +115,7 @@
 		2CE98C141F9104CC00DA9746 /* MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZeroes.swift; sourceTree = "<group>"; };
 		2CE98C171F939B6A00DA9746 /* WordBreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordBreak.swift; sourceTree = "<group>"; };
 		2CE98C1A1F93AB0D00DA9746 /* WordBreakII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordBreakII.swift; sourceTree = "<group>"; };
+		2CF3146F24AC2D8C00170372 /* ValidateStackSequences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateStackSequences.swift; sourceTree = "<group>"; };
 		2CFA25ED2410C4270090E6C3 /* LargestNumberAtLeastTwiceOfOthers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestNumberAtLeastTwiceOfOthers.swift; sourceTree = "<group>"; };
 		2CFA25F22410ED950090E6C3 /* DiagonalTraverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalTraverse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -872,6 +873,7 @@
 				2C99DEEB2410A66100354578 /* 724_FindPivotIndex */,
 				2C9DD53D2438E03D00E5DB62 /* 739_DailyTemperatures */,
 				2CFA25EC2410C4010090E6C3 /* 747_LargestNumberAtLeastTwiceOfOthers */,
+				2CF3146E24AC2D6C00170372 /* 946_ValidateStackSequences */,
 				2C29670422DF0A7C00EAC1DF /* 993_CousinsInBinaryTree */,
 			);
 			path = Solution;
@@ -947,6 +949,14 @@
 				2CE98C1A1F93AB0D00DA9746 /* WordBreakII.swift */,
 			);
 			path = 140_WordBreakII;
+			sourceTree = "<group>";
+		};
+		2CF3146E24AC2D6C00170372 /* 946_ValidateStackSequences */ = {
+			isa = PBXGroup;
+			children = (
+				2CF3146F24AC2D8C00170372 /* ValidateStackSequences.swift */,
+			);
+			path = 946_ValidateStackSequences;
 			sourceTree = "<group>";
 		};
 		2CFA25EC2410C4010090E6C3 /* 747_LargestNumberAtLeastTwiceOfOthers */ = {
@@ -1026,7 +1036,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */,
-				2CE2E5E324A9BD9300BBF332 /* InvertBinaryTree.swift in Sources */,
+				2CF3147024AC2D8C00170372 /* ValidateStackSequences.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
