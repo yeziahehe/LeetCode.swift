@@ -10,7 +10,7 @@ import Foundation
 
 print("Hello, LeetCode!")
 
-let solution = Solution().myPow(2.0, 10)
+let solution = Solution().longestValidParentheses(")()())")
 print(solution)
 
 
