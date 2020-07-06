@@ -10,7 +10,7 @@ import Foundation
 
 print("Hello, LeetCode!")
 
-let solution = Solution().isMatch("aa", "a")
+let solution = Solution().uniquePathsWithObstacles([[0,1,0,0,0],[1,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]])
 print(solution)
 
 
