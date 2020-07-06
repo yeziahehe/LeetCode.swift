@@ -10,7 +10,7 @@ import Foundation
 
 print("Hello, LeetCode!")
 
-let solution = Solution().longestValidParentheses(")()())")
+let solution = Solution().isMatch("aa", "a")
 print(solution)
 
 
