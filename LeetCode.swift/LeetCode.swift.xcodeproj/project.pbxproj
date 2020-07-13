@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CA0BED424B2B885005C5ACE /* 063_UniquePathsII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0BED324B2B885005C5ACE /* 063_UniquePathsII.swift */; };
+		2C49B94D24BBEE6300F390B0 /* 350_IntersectionOfTwoArraysII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C49B94C24BBEE6300F390B0 /* 350_IntersectionOfTwoArraysII.swift */; };
 		2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF91F8BDC0A00DA9746 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +31,7 @@
 		2C29670522DF0ACF00EAC1DF /* CousinsInBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CousinsInBinaryTree.swift; sourceTree = "<group>"; };
 		2C31C0B424A879AF00868283 /* NumberOf1Bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOf1Bits.swift; sourceTree = "<group>"; };
 		2C31C0B724A8834E00868283 /* powx-n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "powx-n.swift"; sourceTree = "<group>"; };
+		2C49B94C24BBEE6300F390B0 /* 350_IntersectionOfTwoArraysII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 350_IntersectionOfTwoArraysII.swift; sourceTree = "<group>"; };
 		2C4BCA6F24627AE000A7FEB1 /* PopulatingNextRightPointersInEachNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulatingNextRightPointersInEachNode.swift; sourceTree = "<group>"; };
 		2C4BCA7224627FEC00A7FEB1 /* PopulatingNextRightPointersInEachNodeII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulatingNextRightPointersInEachNodeII.swift; sourceTree = "<group>"; };
 		2C4BCA7524628DEC00A7FEB1 /* LowestCommonAncestorOfABinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonAncestorOfABinaryTree.swift; sourceTree = "<group>"; };
@@ -856,6 +857,7 @@
 				2CC3B0E024A62B5F007F5E00 /* 343_IntegerBreak */,
 				2C5858102413F72D0008B0A3 /* 344_ReverseString */,
 				2C56D753240E1E6300940922 /* 346_MovingAverageFromDataStream */,
+				2C49B94C24BBEE6300F390B0 /* 350_IntersectionOfTwoArraysII.swift */,
 				2C636FEF1FAF2706009B19F8 /* 373_FindKPairsWithSmallestSums */,
 				2CAF8B0424AEBDFE00CFDF6C /* 378_KthSmallestElementInASortedMatrix.swift */,
 				2C9DD54F243CBEC000E5DB62 /* 394_DecodeString */,
@@ -1047,7 +1049,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CA0BED424B2B885005C5ACE /* 063_UniquePathsII.swift in Sources */,
+				2C49B94D24BBEE6300F390B0 /* 350_IntersectionOfTwoArraysII.swift in Sources */,
 				2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
