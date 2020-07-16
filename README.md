@@ -24,6 +24,7 @@ Solutions to LeetCode by Swift.
 - **St** : `Stack`
 - **Q** : `Queue`
 - **D** : `Design`
+- **GP** : `Graph`
 
 ## How to debug
 
@@ -131,4 +132,5 @@ You can find all solution analysis in my blog [LeetCode OJ](http://yeziahehe.com
 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/724_FindPivotIndex/FindPivotIndex.swift) | ![](https://img.shields.io/badge/%20Difficulty-Easy-brightgreen.svg) | **`A`** | [blog](http://yeziahehe.com/2020/03/05/FindPivotIndex/) |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/739_DailyTemperatures/DailyTemperatures.swift) | ![](https://img.shields.io/badge/%20Difficulty-Medium-orange.svg) | **`St`** **`HT`** | [blog](http://yeziahehe.com/2020/04/05/DailyTemperatures/) |
 | 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/747_LargestNumberAtLeastTwiceOfOthers/LargestNumberAtLeastTwiceOfOthers.swift) | ![](https://img.shields.io/badge/%20Difficulty-Easy-brightgreen.svg) | **`A`** | [blog](http://yeziahehe.com/2020/03/05/LargestNumberAtLeastTwiceOfOthers/) |
+| 785 | [Is Graph Bipartite?](https://leetcode-cn.com/problems/is-graph-bipartite/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/785_IsGraphBipartite.swift) | ![](https://img.shields.io/badge/%20Difficulty-Medium-orange.svg)  | **`DFS`** **`BFS`** **GP** | [blog](http://yeziahehe.com/2020/07/16/IsGraphBipartite/) |
 | 946 | [Validate Stack Sequences](https://leetcode-cn.com/problems/validate-stack-sequences/) | [Solution](https://github.com/yeziahehe/LeetCode.swift/blob/master/LeetCode.swift/Solution/946_ValidateStackSequences/ValidateStackSequences.swift) | ![](https://img.shields.io/badge/%20Difficulty-Medium-orange.svg) | **`St`** | [blog](http://yeziahehe.com/2020/07/01/ValidateStackSequences/) |
