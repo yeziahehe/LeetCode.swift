@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C2B4F1224BE99CB00C2DDA0 /* 096_UniqueBinarySearchTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2B4F1124BE99CB00C2DDA0 /* 096_UniqueBinarySearchTrees.swift */; };
-		2CAACF1C24BFE9C600E06706 /* 785_IsGraphBipartite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAACF1B24BFE9C600E06706 /* 785_IsGraphBipartite.swift */; };
+		2C527CB424C148BB00DE648D /* 035_SearchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C527CB324C148BB00DE648D /* 035_SearchInsertPosition.swift */; };
 		2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF91F8BDC0A00DA9746 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +38,7 @@
 		2C4BCA7524628DEC00A7FEB1 /* LowestCommonAncestorOfABinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonAncestorOfABinaryTree.swift; sourceTree = "<group>"; };
 		2C4BCA78246296E400A7FEB1 /* SerializeAndDeserializeBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerializeAndDeserializeBST.swift; sourceTree = "<group>"; };
 		2C4BCA7B2462A09C00A7FEB1 /* SerializeAndDeserializeBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerializeAndDeserializeBinaryTree.swift; sourceTree = "<group>"; };
+		2C527CB324C148BB00DE648D /* 035_SearchInsertPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 035_SearchInsertPosition.swift; sourceTree = "<group>"; };
 		2C56D754240E1EA700940922 /* MovingAverageFromDataStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingAverageFromDataStream.swift; sourceTree = "<group>"; };
 		2C585804241245930008B0A3 /* SpiralMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralMatrix.swift; sourceTree = "<group>"; };
 		2C58580724137C590008B0A3 /* Pascal'sTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pascal'sTriangle.swift"; sourceTree = "<group>"; };
@@ -804,6 +804,7 @@
 				2C5858192414B8E20008B0A3 /* 027_RemoveElement */,
 				2C6846D71FBF449600501ED7 /* 028_ImplementstrStr */,
 				2C6BC9AB24B0B4610047971E /* 032_LongestValidParentheses.swift */,
+				2C527CB324C148BB00DE648D /* 035_SearchInsertPosition.swift */,
 				2CA0BED124B1C4FD005C5ACE /* 044_WildcardMatching.swift */,
 				2C31C0B624A8833B00868283 /* 050_powx-n */,
 				2CE98BED1F8BAA1200DA9746 /* 053_MaximumSubarray */,
@@ -1058,8 +1059,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CAACF1C24BFE9C600E06706 /* 785_IsGraphBipartite.swift in Sources */,
-				2C2B4F1224BE99CB00C2DDA0 /* 096_UniqueBinarySearchTrees.swift in Sources */,
+				2C527CB424C148BB00DE648D /* 035_SearchInsertPosition.swift in Sources */,
 				2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

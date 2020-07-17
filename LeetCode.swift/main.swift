@@ -10,7 +10,7 @@ import Foundation
 
 print("Hello, LeetCode!")
 
-let solution = Solution().numTrees(1)
+let solution = Solution().searchInsert([1, 3, 5, 6], 7)
 print(solution)
 
 
