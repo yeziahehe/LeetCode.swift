@@ -38,13 +38,9 @@ import Foundation
 class Solution {
     func search(_ nums: [Int], _ target: Int) -> Int {
         var left = 0
-        var right = nums.count
+        var right = nums.count - 1
         while left <= right {
             let mid = left + (right - left) >> 1
-            if mid >= nums.count {
-                // swift 中数组越界访问会 crash
-                return -1
-            }
             if target == nums[mid] {
                 return mid
             } else if target > nums[mid] {

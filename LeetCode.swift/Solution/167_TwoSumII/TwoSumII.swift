@@ -40,17 +40,16 @@ import Foundation
 
 class Solution {
     func twoSum(_ numbers: [Int], _ target: Int) -> [Int] {
-        var i = 0
-        var j = numbers.count - 1
-        while i < j {
-            let sum = numbers[i] + numbers[j]
+        var left = 0
+        var right = numbers.count
+        while left < right {
+            let sum = numbers[left] + numbers[right]
             if sum == target {
-                return [i+1, j+1]
-            }
-            if sum < target {
-                i += 1
-            } else {
-                j -= 1
+                return [left + 1, right + 1]
+            } else if sum < target {
+                left += 1
+            } else if sum > target {
+                right -= 1
             }
         }
         return []
