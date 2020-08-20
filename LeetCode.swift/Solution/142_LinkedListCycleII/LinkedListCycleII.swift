@@ -80,24 +80,21 @@
 import Foundation
 
 class Solution {
-    func detectCycle(head: ListNode?) -> ListNode? {
-        var slow = head
-        var fast = head
-        while true {
-            if fast == nil || fast?.next == nil {
-                return nil
-            }
-            slow = slow?.next
+    func detectCycle(_ head: ListNode?) -> ListNode? {
+        var fast: ListNode? = head
+        var slow: ListNode? = head
+        while fast != nil && fast?.next != nil {
             fast = fast?.next?.next
-            if slow === fast {
-                break
+            slow = slow?.next
+            if fast === slow {
+                fast = head
+                while fast !== slow {
+                    fast = fast?.next
+                    slow = slow?.next
+                }
+                return fast
             }
         }
-        fast = head
-        while slow !== fast {
-            slow = slow?.next
-            fast = fast?.next
-        }
-        return fast
+        return nil
     }
 }
