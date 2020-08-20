@@ -23,22 +23,22 @@ import Foundation
 
 class Solution {
     func lengthOfLongestSubstring(_ s: String) -> Int {
-        let array = Array(s)
-        var length = 0
-        var left = 0, right = 0
-        var i = 0
-        while right < array.count {
-            i = left
-            while i < right {
-                if array[i] == array[right] {
-                    left = i + 1
-                    break
-                }
-                i += 1
-            }
-            length = max(length, right - left + 1)
+        let sArr = [Character](s)
+        var window: [Character: Int] = [:]
+        var left = 0
+        var right = 0
+        var res = 0
+        while right < sArr.count {
+            let c = sArr[right]
             right += 1
+            window[c] = window[c] != nil ? window[c]! + 1 : 1
+            while window[c]! > 1 {
+                let d = sArr[left]
+                left += 1
+                window[d]! -= 1
+            }
+            res = max(res, right - left)
         }
-        return length
+        return res
     }
 }
