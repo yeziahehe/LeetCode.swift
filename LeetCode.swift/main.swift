@@ -10,5 +10,5 @@ import Foundation
 
 print("Hello, LeetCode!")
 
-let solution = Solution().search([-1,0,3,5,9,12], 13)
+let solution = Solution().minWindow("ADOBECODEBANC", "ABC")
 print(solution)
