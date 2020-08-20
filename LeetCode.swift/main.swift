@@ -10,5 +10,5 @@ import Foundation
 
 print("Hello, LeetCode!")
 
-let solution = Solution().maxSlidingWindow([-7,-8,7,5,7,1,6,0], 4)
+let solution = Solution().search([-1,0,3,5,9,12], 13)
 print(solution)
