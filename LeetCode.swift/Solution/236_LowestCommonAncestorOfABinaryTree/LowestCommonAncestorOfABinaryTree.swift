@@ -75,24 +75,15 @@ public class TreeNode {
 }
 
 class Solution {
-    private var ans: TreeNode?
-
     func lowestCommonAncestor(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
-        dfs(root, p, q)
-        return ans
-    }
-
-    @discardableResult
-    func dfs(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> Bool {
-        guard let root = root else {
-            return false
+        if root == nil || root === p || root === q {
+            return root
         }
-        let left = dfs(root.left, p, q)
-        let right = dfs(root.right, p, q)
-        let mid = root === p || root === q
-        if mid ? (left || right) : (left && right) {
-            ans = root
+        let left = lowestCommonAncestor(root?.left, p, q)
+        let right = lowestCommonAncestor(root?.right, p, q)
+        if left != nil && right != nil {
+            return root
         }
-        return mid || left || right
+        return left != nil ? left : right
     }
 }
