@@ -60,7 +60,9 @@ public class TreeNode {
 }
 
 class Codec {
+    // 代表分隔符的字符
     private static let spliter = ","
+    // 代表 null 空指针的字符
     private static let nullStr = "N"
 
     func serialize(_ root: TreeNode?) -> String {
@@ -74,7 +76,9 @@ class Codec {
             str = str + Codec.nullStr + Codec.spliter
             return
         }
+        /****** 前序遍历位置 ******/
         str = str + "\(root.val)" + Codec.spliter
+        /***********************/
         buildString(root.left, &str)
         buildString(root.right, &str)
     }
