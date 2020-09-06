@@ -10,5 +10,16 @@ import Foundation
 
 print("Hello, LeetCode!")
 
-let solution = Solution().minWindow("ADOBECODEBANC", "ABC")
-print(solution)
+let cache = Cache(capacity: 2) // Cache容量为 2
+
+print(cache.get(key: 1)) // 返回 -1
+cache.put(key: 1, val: 10)
+print(cache.get(key: 1)) // 返回 10
+
+cache.put(key: 2, val: 20)
+print(cache.get(key: 2)) // 返回 20
+
+cache.put(key: 3, val: 30) // 因pair（1，10）被访问时间更早，将被移除
+print(cache.get(key: 1)) // 返回 -1
+print(cache.get(key: 2)) // 返回 20
+print(cache.get(key: 3)) // 返回 30
