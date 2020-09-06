@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CAA291E250480D500D7BD96 /* 053_MaximumSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAA291D250480D500D7BD96 /* 053_MaximumSubArray.swift */; };
+		2CAA292025048CF100D7BD96 /* 215_KthLargestElementInAnArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAA291F25048CF100D7BD96 /* 215_KthLargestElementInAnArray.swift */; };
 		2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF91F8BDC0A00DA9746 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -106,6 +106,7 @@
 		2CA6E4AB241B2A8E009D9757 /* PalindromeLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeLinkedList.swift; sourceTree = "<group>"; };
 		2CA6E4AE241F8418009D9757 /* FlattenAMultilevelDoublyLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlattenAMultilevelDoublyLinkedList.swift; sourceTree = "<group>"; };
 		2CAA291D250480D500D7BD96 /* 053_MaximumSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 053_MaximumSubArray.swift; sourceTree = "<group>"; };
+		2CAA291F25048CF100D7BD96 /* 215_KthLargestElementInAnArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 215_KthLargestElementInAnArray.swift; sourceTree = "<group>"; };
 		2CAACF1B24BFE9C600E06706 /* 785_IsGraphBipartite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 785_IsGraphBipartite.swift; sourceTree = "<group>"; };
 		2CAF8B0424AEBDFE00CFDF6C /* 378_KthSmallestElementInASortedMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 378_KthSmallestElementInASortedMatrix.swift; sourceTree = "<group>"; };
 		2CC3B0DE24A34B59007F5E00 /* WordSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSearch.swift; sourceTree = "<group>"; };
@@ -933,6 +934,7 @@
 				2C14D6EE24E65C4500F9EC0B /* 876_MiddleOfTheLinkedList.swift */,
 				2CF3146E24AC2D6C00170372 /* 946_ValidateStackSequences */,
 				2C29670422DF0A7C00EAC1DF /* 993_CousinsInBinaryTree */,
+				2CAA291F25048CF100D7BD96 /* 215_KthLargestElementInAnArray.swift */,
 			);
 			path = Solution;
 			sourceTree = "<group>";
@@ -1101,7 +1103,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CAA291E250480D500D7BD96 /* 053_MaximumSubArray.swift in Sources */,
+				2CAA292025048CF100D7BD96 /* 215_KthLargestElementInAnArray.swift in Sources */,
 				2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
