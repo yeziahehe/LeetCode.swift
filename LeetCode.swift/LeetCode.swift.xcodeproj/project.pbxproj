@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CD7A89C2531A4FF00C4DEDF /* 322_CoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD7A89B2531A4F800C4DEDF /* 322_CoinChange.swift */; };
+		2CD7A8A0253406D400C4DEDF /* 300_LongestIncreasingSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD7A89F253406CD00C4DEDF /* 300_LongestIncreasingSubsequence.swift */; };
 		2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE98BF91F8BDC0A00DA9746 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -130,6 +130,7 @@
 		2CD6172F24A0A6BC000F6B25 /* FindMinimumInRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMinimumInRotatedSortedArray.swift; sourceTree = "<group>"; };
 		2CD6173224A0B0D5000F6B25 /* FindMinimumInRotatedSortedArrayII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMinimumInRotatedSortedArrayII.swift; sourceTree = "<group>"; };
 		2CD7A89B2531A4F800C4DEDF /* 322_CoinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 322_CoinChange.swift; sourceTree = "<group>"; };
+		2CD7A89F253406CD00C4DEDF /* 300_LongestIncreasingSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 300_LongestIncreasingSubsequence.swift; sourceTree = "<group>"; };
 		2CD87583240B94A30001DA84 /* SumOfLeftLeaves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfLeftLeaves.swift; sourceTree = "<group>"; };
 		2CD87585240B95910001DA84 /* HammingDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HammingDistance.swift; sourceTree = "<group>"; };
 		2CD87588240B96DC0001DA84 /* RobotReturnToOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotReturnToOrigin.swift; sourceTree = "<group>"; };
@@ -899,6 +900,7 @@
 				2CD1584824EE070C00E7BA45 /* 239_SlidingWindowMaximum.swift */,
 				2CE98C131F9104A700DA9746 /* 283_MoveZeroes */,
 				2C4BCA7A2462A07A00A7FEB1 /* 297_SerializeAndDeserializeBinaryTree */,
+				2CD7A89F253406CD00C4DEDF /* 300_LongestIncreasingSubsequence.swift */,
 				2C5B4CCA24BD5FA4005D3092 /* 309_BestTimeToBuyAndSellStockWithCooldown.swift */,
 				2CD7A89B2531A4F800C4DEDF /* 322_CoinChange.swift */,
 				2C0B5EFC241A3BA8003BA64B /* 328_OddEvenLinkedList */,
@@ -1110,7 +1112,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CE98BFA1F8BDC0A00DA9746 /* main.swift in Sources */,
-				2CD7A89C2531A4FF00C4DEDF /* 322_CoinChange.swift in Sources */,
+				2CD7A8A0253406D400C4DEDF /* 300_LongestIncreasingSubsequence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
