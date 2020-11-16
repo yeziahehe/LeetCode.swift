@@ -45,7 +45,34 @@
  */
 import Foundation
 
+// 自底向上的迭代的动态规划思路
 class Solution {
+    func longestCommonSubsequence(_ text1: String, _ text2: String) -> Int {
+        let m = text1.count
+        let n = text2.count
+        let s1 = Array(text1)
+        let s2 = Array(text2)
+        var dp = Array(repeating: Array(repeating: 0, count: n + 1), count: m + 1)
+        // 定义：s1[0..i-1] 和 s2[0..j-1] 的 lcs 长度为 dp[i][j]
+        // 目标：s1[0..m-1] 和 s2[0..n-1] 的 lcs 长度，即 dp[m][n]
+        // base case: dp[0][..] = dp[..][0] = 0
+        for i in 1...m {
+            for j in 1...n {
+                // 现在 i 和 j 从 1 开始，所以要减一
+                if s1[i - 1] == s2[j - 1] {
+                    dp[i][j] = 1 + dp[i-1][j-1]
+                } else {
+                    // s1[i-1] 和 s2[j-1] 至少有一个不在 lcs 中
+                    dp[i][j] = max(dp[i-1][j], dp[i][j-1])
+                }
+            }
+        }
+        return dp[m][n]
+    }
+}
+
+// 自顶向下带备忘录的动态规划思路
+class Solution1 {
     // 备忘录，消除重叠子问题
     var meno: [[Int]]!
 
