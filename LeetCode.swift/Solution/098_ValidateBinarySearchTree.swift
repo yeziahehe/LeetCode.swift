@@ -52,19 +52,23 @@ public class TreeNode {
 
 class Solution {
     func isValidBST(_ root: TreeNode?) -> Bool {
-        return isValidBST(root, min: nil, max: nil)
+        return isValidBST(root, nil, nil)
     }
 
-    func isValidBST(_ root: TreeNode?, min: TreeNode?, max: TreeNode?) -> Bool {
+    /* 限定以 root 为根的子树节点必须满足 max.val > root.val > min.val */
+    func isValidBST(_ root: TreeNode?, _ min: TreeNode?, _ max: TreeNode?) -> Bool {
+        // base case
         if root == nil {
             return true
         }
+        // 若 root.val 不符合 max 和 min 的限制，说明不是合法 BST
         if min != nil && root!.val <= min!.val {
             return false
         }
         if max != nil && root!.val >= max!.val {
             return false
         }
-        return isValidBST(root?.left, min: min, max: root) && isValidBST(root?.right, min: root, max: max)
+        // 限定左子树的最大值是 root.val，右子树的最小值是 root.val
+        return isValidBST(root?.left, min, root) && isValidBST(root?.right, root, max)
     }
 }
